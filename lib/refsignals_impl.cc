@@ -315,6 +315,7 @@ void dvbt_pilot_gen::set_channel_gain(int spilot, gr_complex val, float snr)
     // Ratio of expected transmitted power to received power
     // // Gain gval=rxval/txval
     // d_channel_gain[spilot] = gr_complex((4 * 2 * (0.5 - d_wk[spilot]) / 3), 0) / val;
+    
     // =========================================================================
     // Kata blackbox.ai ini MMSE
     // Calculate the received power of the pilot symbol
@@ -322,12 +323,14 @@ void dvbt_pilot_gen::set_channel_gain(int spilot, gr_complex val, float snr)
 
     // Calculate the MMSE estimate of the channel gain
     d_channel_gain[spilot] = (received_power - snr) / (received_power + snr);
+
     // =========================================================================
     // LS (least squared error)
     // gr_complex tx_power = gr_complex((4 * 2 * (0.5 - d_wk[spilot]) / 3), 0);
     // gr_complex rx_power = val;
     // gr_complex error = rx_power - tx_power;
     // d_channel_gain[spilot] = tx_power / (rx_power + error * error.conj());
+
     // =========================================================================
     // MMSE
     // gr_complex tx_power = gr_complex((4 * 2 * (0.5 - d_wk[spilot]) / 3), 0);
