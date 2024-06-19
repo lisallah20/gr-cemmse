@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_5117a96254f122264da8cfde5e648984" kind="dir">
+    <compoundname>cemmse</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="demod__refsignals_8h">demod_refsignals.h</innerfile>
+    <innerfile refid="dvb__config_8h">dvb_config.h</innerfile>
+    <innerfile refid="dvbt__config_8h">dvbt_config.h</innerfile>
+    <innerfile refid="dvbt__configure_8h">dvbt_configure.h</innerfile>
+    <innerfile refid="refsignals_8h">refsignals.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/include/gnuradio/cemmse/"/>
+  </compounddef>
+</doxygen>

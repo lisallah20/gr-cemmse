@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.8" xml:lang="en-US">
+  <compound refid="classgr_1_1cemmse_1_1demod__refsignals" kind="class"><name>gr::cemmse::demod_refsignals</name>
+    <member refid="classgr_1_1cemmse_1_1demod__refsignals_1a7024f222022f7eb4c43b337fee9cc008" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1cemmse_1_1demod__refsignals_1ac65b1d5513608e26a0b869038f66a4c0" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1cemmse_1_1demod__refsignals__impl" kind="class"><name>gr::cemmse::demod_refsignals_impl</name>
+    <member refid="classgr_1_1cemmse_1_1demod__refsignals__impl_1a2c035175bc16d992d4359861c9d200b1" kind="variable"><name>config</name></member>
+    <member refid="classgr_1_1cemmse_1_1demod__refsignals__impl_1aaa37cea03386470222d559d48707670c" kind="variable"><name>d_pg</name></member>
+    <member refid="classgr_1_1cemmse_1_1demod__refsignals__impl_1ac6468ae01117406a3d17635a8abf80af" kind="variable"><name>d_ninput</name></member>
+    <member refid="classgr_1_1cemmse_1_1demod__refsignals__impl_1a4b17cbe21c155d5262c30c821944aa50" kind="variable"><name>d_noutput</name></member>
+    <member refid="classgr_1_1cemmse_1_1demod__refsignals__impl_1a590120a69a6d11a23db3574b02abbdc1" kind="variable"><name>d_init</name></member>
+    <member refid="classgr_1_1cemmse_1_1demod__refsignals__impl_1a8c398153604e3704eed982082ae89c01" kind="variable"><name>d_fi_start</name></member>
+    <member refid="classgr_1_1cemmse_1_1demod__refsignals__impl_1aed9c514d5a9ba0b729a7f474c2373c98" kind="function"><name>is_sync_start</name></member>
+    <member refid="classgr_1_1cemmse_1_1demod__refsignals__impl_1a1f626b6722d6253ecf4b756199a7378e" kind="function"><name>demod_refsignals_impl</name></member>
+    <member refid="classgr_1_1cemmse_1_1demod__refsignals__impl_1ab09bb7d5f1dcff53a2c169d15896e6d2" kind="function"><name>~demod_refsignals_impl</name></member>
+    <member refid="classgr_1_1cemmse_1_1demod__refsignals__impl_1a2e8023cf73c21a3bda83db73784ba33d" kind="function"><name>forecast</name></member>
+    <member refid="classgr_1_1cemmse_1_1demod__refsignals__impl_1a5b2c60f7823ff40cde4cdec6a0d69829" kind="function"><name>general_work</name></member>
+  </compound>
+  <compound refid="classgr_1_1cemmse_1_1dvbt__pilot__gen" kind="class"><name>gr::cemmse::dvbt_pilot_gen</name>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a3a4967c8137e1da223ba6a9afa64e524" kind="variable"><name>config</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a9371de417b730693f3d0aeecc0261b63" kind="variable"><name>d_Kmin</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1aad88c7c2e31f7a1b486c39e5bab00769" kind="variable"><name>d_Kmax</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1aef14000d2dc9de62bd2982f3275fbad9" kind="variable"><name>d_fft_length</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ae724e651035423ed2e2233e9094fcd86" kind="variable"><name>d_payload_length</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a8f2e85ba39d8ee1549a607744fc09be5" kind="variable"><name>d_zeros_on_left</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a189684e729538b17a38dcd4be4f789ae" kind="variable"><name>d_zeros_on_right</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1af1149baf6fb2a837562baa524282f74c" kind="variable"><name>d_cp_length</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a51936258d8d4fc9ddd89f2cfc52a3066" kind="variable"><name>d_spilot_carriers_size</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1aa1e8e9d19b5d8de0b8836fddbe39cda3" kind="variable"><name>d_spilot_carriers_val</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1af01795c9d82877cec0b1809e779c3423" kind="variable"><name>d_channel_gain</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a5c8111d6eca66654679691091624ac69" kind="variable"><name>d_cpilot_carriers_size</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ac3daf7d2ca7be79776c16f0c74e5b8d1" kind="variable"><name>d_cpilot_carriers</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1abfe12ea34687559f98d27cba4e7540fb" kind="variable"><name>d_known_phase_diff</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1af51b68f3daaf19725574cb371e0835de" kind="variable"><name>d_cpilot_phase_diff</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ae8b042317589bb8562a22689e3ffd9b9" kind="variable"><name>d_freq_offset</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1adbe57588df1d14ac2d13a00c0ce6d66b" kind="variable"><name>d_carrier_freq_correction</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1af15ead6f6588601b68b627412a4019d7" kind="variable"><name>d_sampling_freq_correction</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a2c57217951d9e2e84ec0d5cd10f0ec5d" kind="variable"><name>d_derot_in</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ace64a2fc4e501967e218b7b1b48aa26c" kind="variable"><name>d_tps_carriers_size</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a7fb8a0d9739a3ef03731022a05c8d271" kind="variable"><name>d_tps_carriers</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ae0d3222f9390cfc26a26de0a4d4aef2d" kind="variable"><name>d_tps_carriers_val</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ab0007469ad4f3b31ccab1ee4404042f0" kind="variable"><name>d_tps_data</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1adf2b53bcc3078eedd10b3c76d10fcce1" kind="variable"><name>d_prev_tps_symbol</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a99a1b6da8688433d722f911f32826bdf" kind="variable"><name>d_tps_symbol</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a65f7de45b80f6d2b15a29845b6b614cc" kind="variable"><name>d_rcv_tps_data</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a6242873eaf396f608138997a2e560408" kind="variable"><name>d_tps_sync_evenv</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1aab95f53ebe418f4524148e2e39f6c2a6" kind="variable"><name>d_tps_sync_oddv</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1adb947d4c34760f9024edf8d4a741de0e" kind="variable"><name>d_chanestim_carriers</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a5163ab76286d80f782d9b585dbf8ffb8" kind="variable"><name>d_payload_carriers</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a0668b82355d93c4a9fc4ffab77e8ddcf" kind="variable"><name>d_spilot_index</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a6d8bde504810db907995a5eeb85fd8cb" kind="variable"><name>d_cpilot_index</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ac18525b76b42289071ea49b4c1d60837" kind="variable"><name>d_tpilot_index</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a862851ebac11292b6124773a45beb22c" kind="variable"><name>d_symbol_index</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a6814579b32214d99a8ec2ae16650df6b" kind="variable"><name>d_symbol_index_known</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1acbe5fa794715804965b76449754c32ff" kind="variable"><name>d_frame_index</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a65bf9a15f2a1d02a5ee7e72825d939aa" kind="variable"><name>d_superframe_index</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1adfaf6ef3e1d999e8439334dd4ebe8f33" kind="variable"><name>d_freq_offset_max</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a23d4f6116f92271ea2a7ca5294811028" kind="variable"><name>d_trigger_index</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a5cada149c717142c1cceb3a1e6c098bf" kind="variable"><name>d_payload_index</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a4d02b116dda777b14c55b662129537c7" kind="variable"><name>d_chanestim_index</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a5d8bc1ee21e1ade641fbd3b32893382f" kind="variable"><name>d_prev_mod_symbol_index</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a55aac7970ad713e45d78faffb172ce33" kind="variable"><name>d_mod_symbol_index</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1af3e21235e2ad0c73cbd4056944d0c458" kind="variable"><name>d_equalizer_ready</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a0542372fb61a4d7e240e7e06ff8775de" kind="variable"><name>d_wk</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1acc79b03865c964896eea811aef602de0" kind="variable"><name>d_symbols_per_frame</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a2bf72db888e6af897ef46c1811855659" kind="variable"><name>d_frames_per_superframe</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ae5228b713566a4178c0905939e285d25" kind="variable"><name>d_snr</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1aa1897790b6dc83c958cf1416eb845136" kind="variable"><name>d_spilot_carriers_size_2k</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1aca88c4cec50ad97dae52c0b700903e0e" kind="variable"><name>d_cpilot_carriers_size_2k</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a1c7f96dccf9fcdaff17f2516f6ceffa5" kind="variable"><name>d_cpilot_carriers_2k</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ad4d32df178eee33acd303eab1836bfea" kind="variable"><name>d_tps_carriers_size_2k</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a4efd844f61b354e4bbfc62e377423531" kind="variable"><name>d_tps_carriers_2k</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a559091fd946a89d9080b4cd3f048c0ef" kind="variable"><name>d_spilot_carriers_size_8k</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a4242270e20c5268498ac386f3110e28b" kind="variable"><name>d_cpilot_carriers_size_8k</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1acf2509700480194c1391a0c83a165527" kind="variable"><name>d_cpilot_carriers_8k</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a1a651a88b11fec01f064577c05f3c90a" kind="variable"><name>d_tps_carriers_size_8k</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ad155a5f4ced2b5b866476ac3bfe96170" kind="variable"><name>d_tps_carriers_8k</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1abe211812c130a3ca4548e1f1ff41a0bc" kind="variable"><name>d_tps_sync_size</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ac9e5589d14e39f532517dedeb2798575" kind="variable"><name>d_tps_sync_even</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1aa30a520b36e242071e70583288abedf9" kind="variable"><name>d_tps_sync_odd</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a4aac3aa6b9397b90a27d1e64cf37520f" kind="variable"><name>d_logger</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a36db697a5e1d487b0d42bf7352c35936" kind="variable"><name>snr</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1aafd441b54695a426d041c2931833d7a1" kind="function"><name>generate_prbs</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a60808e1cc97e94ee00c202c0d47dde99" kind="function"><name>set_tps_bits</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ab88515e723219c991b2acb23f2ec2d18" kind="function"><name>set_symbol_index</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a6d6221fb768f3e579f58a6b6c8b4601c" kind="function"><name>get_symbol_index</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1af9060e5c2b86d79d50f3423480dcb649" kind="function"><name>set_tps_data</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1acc142c740721fe4adf4461a091595ef7" kind="function"><name>get_tps_data</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1acd42a6e4fc57fc6ea52fe64db65c2747" kind="function"><name>reset_pilot_generator</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ab0ecfc3c2bd6f2238f2f0ed8ec0c8859" kind="function"><name>get_current_spilot</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ad8ec42fd199150fb2a4670ffcf41618e" kind="function"><name>get_spilot_value</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1aa1fde203932b6321c131c9e38b1557b6" kind="function"><name>set_spilot_value</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1afaf8eee270604c6ad3329132f23c9b52" kind="function"><name>advance_spilot</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ab41c5212d0f438a1227a86dfc457013a" kind="function"><name>get_first_spilot</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a26a02f4c6eabba3c994392d051382eee" kind="function"><name>get_last_spilot</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a1b3d1f3e210db438c6514cab1b08e8d5" kind="function"><name>get_next_spilot</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a5b6cca1ffee3fc9dcc05c18277c8d621" kind="function"><name>process_spilot_data</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1aa087629acc24fe0958e4f4348af01152" kind="function"><name>set_channel_gain</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a7db25905c58de73e4f1523051f5c5ea1" kind="function"><name>get_current_cpilot</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a8e829efed1a05754d9d0f35873b81158" kind="function"><name>get_cpilot_value</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a759ac1718171f42cc5d80b0bbd3ef1a2" kind="function"><name>advance_cpilot</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1adfed86800a9549956934eb1012edf5c2" kind="function"><name>process_cpilot_data</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1acb58a080f6baf9206a24cbcfa4d00c62" kind="function"><name>compute_oneshot_csft</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a625ba8befb347a61e4b7d2342eac5007" kind="function"><name>frequency_correction</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a0d8e2b4c8e9fa53ef0c35c00613569cc" kind="function"><name>get_current_tpilot</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a138f5926a7e29d8a4666c5e945ed2af2" kind="function"><name>get_tpilot_value</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a48a19137c4439265e820ecd066321d93" kind="function"><name>advance_tpilot</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a886a9b2431969f502f15864ceafcded3" kind="function"><name>format_tps_data</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a58d053d73f7a5a912be89af52a1e3c0b" kind="function"><name>generate_bch_code</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a2e56827749651c57f0b03290a391b13d" kind="function"><name>verify_bch_code</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ad4887d80695249c9c54d6ef8b25bde06" kind="function"><name>process_tps_data</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a37a871d6b83d566606de7e8c2c234527" kind="function"><name>set_chanestim_carrier</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a1111df63736c815ed748c3b2909d9709" kind="function"><name>get_current_payload</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a0e2ba4cf967e43ffefee814fb899408a" kind="function"><name>advance_chanestim</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a7d5cd7214e6029a562bcd5311c40b52e" kind="function"><name>set_payload_carrier</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1aae088a32f063fa6ef85f25d2878593dc" kind="function"><name>advance_payload</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1aa6ffa46aadeb8a7c2b93c038691ac84a" kind="function"><name>process_payload_data</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ae55e8a4d478546d38b6b407fce13ec11" kind="function"><name>dvbt_pilot_gen</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a20d51e3fe32b74a4e482c73bbc6d2bd2" kind="function"><name>~dvbt_pilot_gen</name></member>
+    <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a8e2528afccf9e7b1507fa45358f3b2f6" kind="function"><name>update_output</name></member>
+  </compound>
+  <compound refid="classgr_1_1cemmse_1_1refsignals" kind="class"><name>gr::cemmse::refsignals</name>
+    <member refid="classgr_1_1cemmse_1_1refsignals_1a4d0ed8b0b8d64040dbb47cfda0d5129a" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1cemmse_1_1refsignals_1a2e218ec2714ed631dd544df99ba32979" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1cemmse_1_1refsignals__impl" kind="class"><name>gr::cemmse::refsignals_impl</name>
+    <member refid="classgr_1_1cemmse_1_1refsignals__impl_1a6cb432638d6a83135fa103d4b2e06313" kind="variable"><name>config</name></member>
+    <member refid="classgr_1_1cemmse_1_1refsignals__impl_1a1852a7896e8620ddcf333cda66554eb7" kind="variable"><name>d_pg</name></member>
+    <member refid="classgr_1_1cemmse_1_1refsignals__impl_1a1265d0551186a1fcde75aa9108deb7ce" kind="variable"><name>d_ninput</name></member>
+    <member refid="classgr_1_1cemmse_1_1refsignals__impl_1a939826e47c394f22c29bbf55148a207d" kind="variable"><name>d_noutput</name></member>
+    <member refid="classgr_1_1cemmse_1_1refsignals__impl_1ad75ec559f0a2f9ec18a28cf42c1b6bf2" kind="variable"><name>ofdm_fft</name></member>
+    <member refid="classgr_1_1cemmse_1_1refsignals__impl_1a83dbd17a2c5ef8f145dc523b9fba425f" kind="variable"><name>ofdm_fft_size</name></member>
+    <member refid="classgr_1_1cemmse_1_1refsignals__impl_1a5cd51cbb2dbebeef86478237fbef4841" kind="variable"><name>normalization</name></member>
+    <member refid="classgr_1_1cemmse_1_1refsignals__impl_1a853c00b2fa28a68c0b53c7dc5288acc8" kind="function"><name>refsignals_impl</name></member>
+    <member refid="classgr_1_1cemmse_1_1refsignals__impl_1a945dd3df2b6575deaa181ca8fccc85a0" kind="function"><name>~refsignals_impl</name></member>
+    <member refid="classgr_1_1cemmse_1_1refsignals__impl_1a356bb3cd2b692d4d0d942a751b88cb86" kind="function"><name>forecast</name></member>
+    <member refid="classgr_1_1cemmse_1_1refsignals__impl_1a88fd592dd09bb6d7e73027738f676e52" kind="function"><name>general_work</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1cemmse" kind="namespace"><name>gr::cemmse</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="build_2python_2cemmse_2bindings_2pydoc__macros_8h" kind="file"><name>build/python/cemmse/bindings/pydoc_macros.h</name>
+    <member refid="build_2python_2cemmse_2bindings_2pydoc__macros_8h_1afa7cf06549cf7fd295f622ef6f376357" kind="define"><name>__EXPAND</name></member>
+    <member refid="build_2python_2cemmse_2bindings_2pydoc__macros_8h_1a251b23a2efed48ff2ba2d6f449ed33a3" kind="define"><name>__COUNT</name></member>
+    <member refid="build_2python_2cemmse_2bindings_2pydoc__macros_8h_1a2815f7ab197591ba9559415c694f9ce0" kind="define"><name>__VA_SIZE</name></member>
+    <member refid="build_2python_2cemmse_2bindings_2pydoc__macros_8h_1afdd58e017733f2235c227ef8dd3b2de8" kind="define"><name>__CAT1</name></member>
+    <member refid="build_2python_2cemmse_2bindings_2pydoc__macros_8h_1af08fe30f2a41cef10658f6a892d20543" kind="define"><name>__CAT2</name></member>
+    <member refid="build_2python_2cemmse_2bindings_2pydoc__macros_8h_1a43c147206df4346db5e9d6445aab28ae" kind="define"><name>__DOC1</name></member>
+    <member refid="build_2python_2cemmse_2bindings_2pydoc__macros_8h_1a53738db606593bc1554371d718695fed" kind="define"><name>__DOC2</name></member>
+    <member refid="build_2python_2cemmse_2bindings_2pydoc__macros_8h_1a21baf08c04d32485764f227c32b5bf5d" kind="define"><name>__DOC3</name></member>
+    <member refid="build_2python_2cemmse_2bindings_2pydoc__macros_8h_1a9463ba0ad86bcb4c59b5aecf8a37174c" kind="define"><name>__DOC4</name></member>
+    <member refid="build_2python_2cemmse_2bindings_2pydoc__macros_8h_1a942579d548421ddb2906af7094e5789c" kind="define"><name>__DOC5</name></member>
+    <member refid="build_2python_2cemmse_2bindings_2pydoc__macros_8h_1a31ea356761360e78d16525aa69d2dae6" kind="define"><name>__DOC6</name></member>
+    <member refid="build_2python_2cemmse_2bindings_2pydoc__macros_8h_1a6f1e731f1c6d2893ff1bf98582a7de6e" kind="define"><name>__DOC7</name></member>
+    <member refid="build_2python_2cemmse_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kind="define"><name>DOC</name></member>
+  </compound>
+  <compound refid="docs_2doxygen_2pydoc__macros_8h" kind="file"><name>docs/doxygen/pydoc_macros.h</name>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1afa7cf06549cf7fd295f622ef6f376357" kind="define"><name>__EXPAND</name></member>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1a251b23a2efed48ff2ba2d6f449ed33a3" kind="define"><name>__COUNT</name></member>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1a2815f7ab197591ba9559415c694f9ce0" kind="define"><name>__VA_SIZE</name></member>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1afdd58e017733f2235c227ef8dd3b2de8" kind="define"><name>__CAT1</name></member>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1af08fe30f2a41cef10658f6a892d20543" kind="define"><name>__CAT2</name></member>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1a43c147206df4346db5e9d6445aab28ae" kind="define"><name>__DOC1</name></member>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1a53738db606593bc1554371d718695fed" kind="define"><name>__DOC2</name></member>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1a21baf08c04d32485764f227c32b5bf5d" kind="define"><name>__DOC3</name></member>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1a9463ba0ad86bcb4c59b5aecf8a37174c" kind="define"><name>__DOC4</name></member>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1a942579d548421ddb2906af7094e5789c" kind="define"><name>__DOC5</name></member>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1a31ea356761360e78d16525aa69d2dae6" kind="define"><name>__DOC6</name></member>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1a6f1e731f1c6d2893ff1bf98582a7de6e" kind="define"><name>__DOC7</name></member>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kind="define"><name>DOC</name></member>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1aeccaa14e2e3e0f4a022f4b562ed98a10" kind="define"><name>CEMMSE_API</name></member>
+  </compound>
+  <compound refid="demod__refsignals_8h" kind="file"><name>demod_refsignals.h</name>
+  </compound>
+  <compound refid="dvb__config_8h" kind="file"><name>dvb_config.h</name>
+    <member refid="dvb__config_8h_1a9adfcb86e75d334e3240318ee69078a1" kind="typedef"><name>dvb_code_rate_t</name></member>
+    <member refid="dvb__config_8h_1a9382430d7defb7f03e4bebabbc9ae77d" kind="typedef"><name>dvb_constellation_t</name></member>
+    <member refid="dvb__config_8h_1a258da4572fe82df8f143c1dfcc169b9e" kind="typedef"><name>dvb_guardinterval_t</name></member>
+  </compound>
+  <compound refid="dvbt__config_8h" kind="file"><name>dvbt_config.h</name>
+    <member refid="dvbt__config_8h_1a7b51902feebb001d1bd3eebe97dfeb4c" kind="typedef"><name>dvbt_hierarchy_t</name></member>
+    <member refid="dvbt__config_8h_1a1164215ababe632659b10b178ec35670" kind="typedef"><name>dvbt_transmission_mode_t</name></member>
+  </compound>
+  <compound refid="dvbt__configure_8h" kind="file"><name>dvbt_configure.h</name>
+  </compound>
+  <compound refid="refsignals_8h" kind="file"><name>refsignals.h</name>
+  </compound>
+  <compound refid="demod__refsignals__impl_8h" kind="file"><name>demod_refsignals_impl.h</name>
+  </compound>
+  <compound refid="refsignals__impl_8h" kind="file"><name>refsignals_impl.h</name>
+    <member refid="refsignals__impl_8h_1ab899f5f8e58cde9ade00434d777290e1" kind="variable"><name>SYMBOLS_PER_FRAME</name></member>
+    <member refid="refsignals__impl_8h_1a01bba9d58a548d8fc72ca55a3c933662" kind="variable"><name>FRAMES_PER_SUPERFRAME</name></member>
+    <member refid="refsignals__impl_8h_1aca38446c8138e754c6e2d785ae7c2399" kind="variable"><name>SCATTERED_PILOT_SIZE_2k</name></member>
+    <member refid="refsignals__impl_8h_1a53c769ee44c2b60f693340f55ebe1e19" kind="variable"><name>CONTINUAL_PILOT_SIZE_2k</name></member>
+    <member refid="refsignals__impl_8h_1ab08c2de20699eb72fea839cde70e644e" kind="variable"><name>TPS_PILOT_SIZE_2k</name></member>
+    <member refid="refsignals__impl_8h_1a36fb598a5a87af0ad7e487427b19bb62" kind="variable"><name>SCATTERED_PILOT_SIZE_8k</name></member>
+    <member refid="refsignals__impl_8h_1ae395d2e45e5be61c0852381a193b0eb3" kind="variable"><name>CONTINUAL_PILOT_SIZE_8k</name></member>
+    <member refid="refsignals__impl_8h_1a6c46df425da6fff8bd4ff0e7bc9f7003" kind="variable"><name>TPS_PILOT_SIZE_8k</name></member>
+  </compound>
+  <compound refid="demod__refsignals__pydoc__template_8h" kind="file"><name>demod_refsignals_pydoc_template.h</name>
+    <member refid="demod__refsignals__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" kind="define"><name>D</name></member>
+    <member refid="demod__refsignals__pydoc__template_8h_1a5e4466d8a7183539b3365c95e027b55d" kind="variable"><name>__doc_gr_cemmse_demod_refsignals</name></member>
+    <member refid="demod__refsignals__pydoc__template_8h_1a595c0eb6001d09300dabc831eeddea84" kind="variable"><name>__doc_gr_cemmse_demod_refsignals_demod_refsignals</name></member>
+    <member refid="demod__refsignals__pydoc__template_8h_1a72c9a9abcce1b85c688ef60778b4d6bd" kind="variable"><name>__doc_gr_cemmse_demod_refsignals_make</name></member>
+  </compound>
+  <compound refid="dvb__config__pydoc__template_8h" kind="file"><name>dvb_config_pydoc_template.h</name>
+    <member refid="dvb__config__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" kind="define"><name>D</name></member>
+    <member refid="dvb__config__pydoc__template_8h_1a5601c094ef6b4ca8f45091fc15597324" kind="variable"><name>__doc_gr_cemmse_dvb_config</name></member>
+    <member refid="dvb__config__pydoc__template_8h_1a2df91ecdc80142d11cf476db474e0dd4" kind="variable"><name>__doc_gr_cemmse_dvb_config_dvb_config</name></member>
+    <member refid="dvb__config__pydoc__template_8h_1a5897a018de3573ae7f7332ed4197f6c3" kind="variable"><name>__doc_gr_cemmse_dvb_config_make</name></member>
+  </compound>
+  <compound refid="dvbt__config__pydoc__template_8h" kind="file"><name>dvbt_config_pydoc_template.h</name>
+    <member refid="dvbt__config__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" kind="define"><name>D</name></member>
+    <member refid="dvbt__config__pydoc__template_8h_1ad3fa7816661b6e4f4671014de412a9b5" kind="variable"><name>__doc_gr_cemmse_dvbt_config</name></member>
+    <member refid="dvbt__config__pydoc__template_8h_1a580e72925f123e8ac6c53ebf5234c37a" kind="variable"><name>__doc_gr_cemmse_dvbt_config_dvbt_config</name></member>
+    <member refid="dvbt__config__pydoc__template_8h_1a36671c9df4aa6467dcab368469fcf2d7" kind="variable"><name>__doc_gr_cemmse_dvbt_config_make</name></member>
+  </compound>
+  <compound refid="dvbt__configure__pydoc__template_8h" kind="file"><name>dvbt_configure_pydoc_template.h</name>
+    <member refid="dvbt__configure__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" kind="define"><name>D</name></member>
+    <member refid="dvbt__configure__pydoc__template_8h_1a3bc5435a13638d12285cbe1836f48a60" kind="variable"><name>__doc_gr_cemmse_dvbt_configure</name></member>
+    <member refid="dvbt__configure__pydoc__template_8h_1a548273053f2151138f6f16bfcf2fd301" kind="variable"><name>__doc_gr_cemmse_dvbt_configure_dvbt_configure</name></member>
+    <member refid="dvbt__configure__pydoc__template_8h_1a1f7bb72d05521e1043fbc8f3cd2813fb" kind="variable"><name>__doc_gr_cemmse_dvbt_configure_make</name></member>
+  </compound>
+  <compound refid="refsignals__pydoc__template_8h" kind="file"><name>refsignals_pydoc_template.h</name>
+    <member refid="refsignals__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" kind="define"><name>D</name></member>
+    <member refid="refsignals__pydoc__template_8h_1a3df63cded35cc4e9d2ff5f3965d4a106" kind="variable"><name>__doc_gr_cemmse_refsignals</name></member>
+    <member refid="refsignals__pydoc__template_8h_1a313b29c9c1b338cc808c8402a40c0eba" kind="variable"><name>__doc_gr_cemmse_refsignals_refsignals</name></member>
+    <member refid="refsignals__pydoc__template_8h_1a3499877d9a1b8805a88c67aba31eb8ad" kind="variable"><name>__doc_gr_cemmse_refsignals_make</name></member>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_5ad9b61bf18897a1e283fdc0d72d838c" kind="dir"><name>bindings</name>
+  </compound>
+  <compound refid="dir_2c05e3faccb2089c9429742ccff415b8" kind="dir"><name>bindings</name>
+  </compound>
+  <compound refid="dir_8c9c037f076716b6064581f9015dfc32" kind="dir"><name>cemmse</name>
+  </compound>
+  <compound refid="dir_5117a96254f122264da8cfde5e648984" kind="dir"><name>cemmse</name>
+  </compound>
+  <compound refid="dir_1056c0056e22c6abbc18e53e51d88261" kind="dir"><name>cemmse</name>
+  </compound>
+  <compound refid="dir_49e56c817e5e54854c35e136979f97ca" kind="dir"><name>docs</name>
+  </compound>
+  <compound refid="dir_661324ce980b13cb2dbd45754da3c9c3" kind="dir"><name>docstrings</name>
+  </compound>
+  <compound refid="dir_359d2bec989c9a8deeeb9aee335c1c76" kind="dir"><name>doxygen</name>
+  </compound>
+  <compound refid="dir_902d6fe55786be073ae6681293cdb979" kind="dir"><name>gnuradio</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="dir_f2cd86917185299abf5a1f0679072f3c" kind="dir"><name>other</name>
+  </compound>
+  <compound refid="dir_ab3dd591509f89c87d6a9fd8136a6d03" kind="dir"><name>python</name>
+  </compound>
+  <compound refid="dir_7837fde3ab9c1fb2fc5be7b717af8d79" kind="dir"><name>python</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1cemmse_1_1refsignals" kind="class" language="C++" prot="public">
+    <compoundname>gr::cemmse::refsignals</compoundname>
+    <basecompoundref prot="public" virt="virtual">gr::block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1cemmse_1_1refsignals__impl" prot="public" virt="non-virtual">gr::cemmse::refsignals_impl</derivedcompoundref>
+    <includes refid="refsignals_8h" local="no">refsignals.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1cemmse_1_1refsignals_1a4d0ed8b0b8d64040dbb47cfda0d5129a" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1cemmse_1_1refsignals" kindref="compound">refsignals</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;refsignals&gt; gr::cemmse::refsignals::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <qualifiedname>gr::cemmse::refsignals::sptr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/include/gnuradio/cemmse/refsignals.h" line="32" column="29" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/include/gnuradio/cemmse/refsignals.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1refsignals_1a2e218ec2714ed631dd544df99ba32979" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1cemmse_1_1refsignals_1a4d0ed8b0b8d64040dbb47cfda0d5129a" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::cemmse::refsignals::make</definition>
+        <argsstring>(int itemsize, int ninput, int noutput, float snr, dvb_constellation_t constellation, dvbt_hierarchy_t hierarchy, dvb_code_rate_t code_rate_HP, dvb_code_rate_t code_rate_LP, dvb_guardinterval_t guard_interval, dvbt_transmission_mode_t transmission_mode, int include_cell_id, int cell_id)</argsstring>
+        <name>make</name>
+        <qualifiedname>gr::cemmse::refsignals::make</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>itemsize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ninput</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>noutput</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>snr</declname>
+        </param>
+        <param>
+          <type><ref refid="dvb__config_8h_1a9382430d7defb7f03e4bebabbc9ae77d" kindref="member">dvb_constellation_t</ref></type>
+          <declname>constellation</declname>
+        </param>
+        <param>
+          <type><ref refid="dvbt__config_8h_1a7b51902feebb001d1bd3eebe97dfeb4c" kindref="member">dvbt_hierarchy_t</ref></type>
+          <declname>hierarchy</declname>
+        </param>
+        <param>
+          <type><ref refid="dvb__config_8h_1a9adfcb86e75d334e3240318ee69078a1" kindref="member">dvb_code_rate_t</ref></type>
+          <declname>code_rate_HP</declname>
+        </param>
+        <param>
+          <type><ref refid="dvb__config_8h_1a9adfcb86e75d334e3240318ee69078a1" kindref="member">dvb_code_rate_t</ref></type>
+          <declname>code_rate_LP</declname>
+        </param>
+        <param>
+          <type><ref refid="dvb__config_8h_1a258da4572fe82df8f143c1dfcc169b9e" kindref="member">dvb_guardinterval_t</ref></type>
+          <declname>guard_interval</declname>
+        </param>
+        <param>
+          <type><ref refid="dvbt__config_8h_1a1164215ababe632659b10b178ec35670" kindref="member">dvbt_transmission_mode_t</ref></type>
+          <declname>transmission_mode</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>include_cell_id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cell_id</declname>
+        </param>
+        <briefdescription>
+<para>Create Reference signals generator. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>itemsize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>size of an in/out item. <linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ninput</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>input stream length. <linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>noutput</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>output stream length. <linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>snr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>signal-to-noise ratio value <linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>constellation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>constellation used. <linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>hierarchy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>hierarchy used. <linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>code_rate_HP</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>high priority stream code rate. <linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>code_rate_LP</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>low priority stream code rate. <linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>guard_interval</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>guard interval used. <linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>transmission_mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>transmission mode used. <linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>include_cell_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>include or not Cell ID. <linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cell_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>value of the CTo solve the problem, we need to include the header file that declares the ref_signals_impl class.ell ID. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/include/gnuradio/cemmse/refsignals.h" line="50" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Reference signals generator. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>ETSI EN 300 744 Clause 4.5 <linebreak/>
+Data input format: <linebreak/>
+complex(real(float), imag(float)). <linebreak/>
+Data output format: <linebreak/>
+complex(real(float), imag(float)). </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::block</label>
+      </node>
+      <node id="1">
+        <label>gr::cemmse::refsignals</label>
+        <link refid="classgr_1_1cemmse_1_1refsignals"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::cemmse::refsignals_impl</label>
+        <link refid="classgr_1_1cemmse_1_1refsignals__impl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::block</label>
+      </node>
+      <node id="1">
+        <label>gr::cemmse::refsignals</label>
+        <link refid="classgr_1_1cemmse_1_1refsignals"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/include/gnuradio/cemmse/refsignals.h" line="29" column="1" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/include/gnuradio/cemmse/refsignals.h" bodystart="30" bodyend="62"/>
+    <listofallmembers>
+      <member refid="classgr_1_1cemmse_1_1refsignals_1a2e218ec2714ed631dd544df99ba32979" prot="public" virt="non-virtual"><scope>gr::cemmse::refsignals</scope><name>make</name></member>
+      <member refid="classgr_1_1cemmse_1_1refsignals_1a4d0ed8b0b8d64040dbb47cfda0d5129a" prot="public" virt="non-virtual"><scope>gr::cemmse::refsignals</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

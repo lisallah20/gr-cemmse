@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_661324ce980b13cb2dbd45754da3c9c3" kind="dir">
+    <compoundname>docstrings</compoundname>
+    <innerfile refid="demod__refsignals__pydoc__template_8h">demod_refsignals_pydoc_template.h</innerfile>
+    <innerfile refid="dvb__config__pydoc__template_8h">dvb_config_pydoc_template.h</innerfile>
+    <innerfile refid="dvbt__config__pydoc__template_8h">dvbt_config_pydoc_template.h</innerfile>
+    <innerfile refid="dvbt__configure__pydoc__template_8h">dvbt_configure_pydoc_template.h</innerfile>
+    <innerfile refid="refsignals__pydoc__template_8h">refsignals_pydoc_template.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/python/cemmse/bindings/docstrings/"/>
+  </compounddef>
+</doxygen>

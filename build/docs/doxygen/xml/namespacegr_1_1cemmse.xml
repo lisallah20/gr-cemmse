@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacegr_1_1cemmse" kind="namespace" language="C++">
+    <compoundname>gr::cemmse</compoundname>
+    <innerclass refid="classgr_1_1cemmse_1_1demod__refsignals" prot="public">gr::cemmse::demod_refsignals</innerclass>
+    <innerclass refid="classgr_1_1cemmse_1_1demod__refsignals__impl" prot="public">gr::cemmse::demod_refsignals_impl</innerclass>
+    <innerclass refid="classgr_1_1cemmse_1_1dvbt__pilot__gen" prot="public">gr::cemmse::dvbt_pilot_gen</innerclass>
+    <innerclass refid="classgr_1_1cemmse_1_1refsignals" prot="public">gr::cemmse::refsignals</innerclass>
+    <innerclass refid="classgr_1_1cemmse_1_1refsignals__impl" prot="public">gr::cemmse::refsignals_impl</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/include/gnuradio/cemmse/demod_refsignals.h" line="17" column="1"/>
+  </compounddef>
+</doxygen>

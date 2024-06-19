@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dvbt__config__pydoc__template_8h" kind="file" language="C++">
+    <compoundname>dvbt_config_pydoc_template.h</compoundname>
+    <includes local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>dvbt_config_pydoc_template.h</label>
+        <link refid="dvbt__config__pydoc__template_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="dvbt__config__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2python_2cemmse_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr,cemmse, __VA_ARGS__ )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/python/cemmse/bindings/docstrings/dvbt_config_pydoc_template.h" line="10" column="10" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/python/cemmse/bindings/docstrings/dvbt_config_pydoc_template.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="dvbt__config__pydoc__template_8h_1ad3fa7816661b6e4f4671014de412a9b5" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_cemmse_dvbt_config</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_cemmse_dvbt_config</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/python/cemmse/bindings/docstrings/dvbt_config_pydoc_template.h" line="19" column="20" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/python/cemmse/bindings/docstrings/dvbt_config_pydoc_template.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dvbt__config__pydoc__template_8h_1a580e72925f123e8ac6c53ebf5234c37a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_cemmse_dvbt_config_dvbt_config</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_cemmse_dvbt_config_dvbt_config</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/python/cemmse/bindings/docstrings/dvbt_config_pydoc_template.h" line="22" column="20" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/python/cemmse/bindings/docstrings/dvbt_config_pydoc_template.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dvbt__config__pydoc__template_8h_1a36671c9df4aa6467dcab368469fcf2d7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_cemmse_dvbt_config_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_cemmse_dvbt_config_make</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/python/cemmse/bindings/docstrings/dvbt_config_pydoc_template.h" line="25" column="20" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/python/cemmse/bindings/docstrings/dvbt_config_pydoc_template.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/python/cemmse/bindings/docstrings/dvbt_config_pydoc_template.h"/>
+  </compounddef>
+</doxygen>

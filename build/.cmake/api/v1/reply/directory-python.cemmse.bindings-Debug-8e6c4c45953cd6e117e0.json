@@ -1,0 +1,56 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"python/cemmse/bindings/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "pythonapi",
+			"destination" : "lib/python3.12/dist-packages/gnuradio/cemmse",
+			"paths" : 
+			[
+				"python/cemmse/bindings/cemmse_python.cpython-312-x86_64-linux-gnu.so"
+			],
+			"targetId" : "cemmse_python::@8939b4d5eaebcc4f1be8",
+			"targetIndex" : 1,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "pythonapi",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "cemmse_python::@8939b4d5eaebcc4f1be8",
+				"index" : 1
+			},
+			"destination" : "lib/python3.12/dist-packages/gnuradio/cemmse",
+			"type" : "cxxModuleBmi"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "python/cemmse/bindings",
+		"source" : "python/cemmse/bindings"
+	}
+}

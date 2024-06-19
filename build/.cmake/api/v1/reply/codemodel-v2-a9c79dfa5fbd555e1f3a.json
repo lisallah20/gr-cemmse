@@ -1,0 +1,277 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						6,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-739bbd440f54c1f6f44d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "include/gnuradio/cemmse",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-include.gnuradio.cemmse-Debug-c22daa1dc7ca86178bd1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "include/gnuradio/cemmse"
+				},
+				{
+					"build" : "lib",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib-Debug-7a40f0a7443bcc51db0c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lib",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "apps",
+					"jsonFile" : "directory-apps-Debug-76fddd1453400e648719.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "apps",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "docs",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-docs-Debug-c463161ff6ebad611835.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "docs"
+				},
+				{
+					"build" : "docs/doxygen",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-docs.doxygen-Debug-406e72584e1246bbcd1b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 0,
+					"source" : "docs/doxygen",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "python/cemmse",
+					"childIndexes" : 
+					[
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-python.cemmse-Debug-c664e8580d906da0c07a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "python/cemmse",
+					"targetIndexes" : 
+					[
+						3,
+						8
+					]
+				},
+				{
+					"build" : "python/cemmse/bindings",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-python.cemmse.bindings-Debug-8e6c4c45953cd6e117e0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 0,
+					"source" : "python/cemmse/bindings",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						5
+					]
+				},
+				{
+					"build" : "grc",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-grc-Debug-4aba231afc12e29949ae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "grc"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"name" : "gr-cemmse",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 7,
+					"id" : "cemmse_docstrings::@8939b4d5eaebcc4f1be8",
+					"jsonFile" : "target-cemmse_docstrings-Debug-8070da8a520a574991e2.json",
+					"name" : "cemmse_docstrings",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "cemmse_python::@8939b4d5eaebcc4f1be8",
+					"jsonFile" : "target-cemmse_python-Debug-46f6cbf92eb2568429b7.json",
+					"name" : "cemmse_python",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "copy_bindings_for_tests::@8939b4d5eaebcc4f1be8",
+					"jsonFile" : "target-copy_bindings_for_tests-Debug-bf324899f11c4ffe592f.json",
+					"name" : "copy_bindings_for_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "copy_module_for_tests::@ed28c44003e9973e610d",
+					"jsonFile" : "target-copy_module_for_tests-Debug-3738453ff148045cf375.json",
+					"name" : "copy_module_for_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "doxygen_target::@0eb31cab11dfcb11fc01",
+					"jsonFile" : "target-doxygen_target-Debug-681ec95dec5e371c38bd.json",
+					"name" : "doxygen_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "extracted_docstrings::@8939b4d5eaebcc4f1be8",
+					"jsonFile" : "target-extracted_docstrings-Debug-849865b56a4a65748f21.json",
+					"name" : "extracted_docstrings",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gnuradio-cemmse::@306ed2d68c6501e8728f",
+					"jsonFile" : "target-gnuradio-cemmse-Debug-7d90f153c160bfb53e50.json",
+					"name" : "gnuradio-cemmse",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "pygen_apps_9a6dd283c3de653fbca500f9721f634f::@9e189ee61a034fc9b705",
+					"jsonFile" : "target-pygen_apps_9a6dd283c3de653fbca500f9721f634f-Debug-29862537099b1bec0c21.json",
+					"name" : "pygen_apps_9a6dd283c3de653fbca500f9721f634f",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "pygen_python_cemmse_66d031c10c26ceae738e093c49f5d5db::@ed28c44003e9973e610d",
+					"jsonFile" : "target-pygen_python_cemmse_66d031c10c26ceae738e093c49f5d5db-Debug-f66f81a72406018720a3.json",
+					"name" : "pygen_python_cemmse_66d031c10c26ceae738e093c49f5d5db",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-6be3bbf1399e7eefb19a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/iostreamco/grc/tryOOT/gr-cemmse/build",
+		"source" : "/home/iostreamco/grc/tryOOT/gr-cemmse"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

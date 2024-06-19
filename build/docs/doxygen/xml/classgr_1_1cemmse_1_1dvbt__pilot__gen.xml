@@ -1,0 +1,1678 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1cemmse_1_1dvbt__pilot__gen" kind="class" language="C++" prot="public">
+    <compoundname>gr::cemmse::dvbt_pilot_gen</compoundname>
+    <includes refid="refsignals__impl_8h" local="no">refsignals_impl.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a3a4967c8137e1da223ba6a9afa64e524" prot="private" static="no" mutable="no">
+        <type>const dvbt_configure &amp;</type>
+        <definition>const dvbt_configure&amp; gr::cemmse::dvbt_pilot_gen::config</definition>
+        <argsstring></argsstring>
+        <name>config</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::config</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="36" column="26" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a9371de417b730693f3d0aeecc0261b63" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::cemmse::dvbt_pilot_gen::d_Kmin</definition>
+        <argsstring></argsstring>
+        <name>d_Kmin</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_Kmin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="38" column="15" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1aad88c7c2e31f7a1b486c39e5bab00769" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::cemmse::dvbt_pilot_gen::d_Kmax</definition>
+        <argsstring></argsstring>
+        <name>d_Kmax</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_Kmax</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="39" column="15" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1aef14000d2dc9de62bd2982f3275fbad9" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::cemmse::dvbt_pilot_gen::d_fft_length</definition>
+        <argsstring></argsstring>
+        <name>d_fft_length</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_fft_length</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="40" column="15" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ae724e651035423ed2e2233e9094fcd86" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::cemmse::dvbt_pilot_gen::d_payload_length</definition>
+        <argsstring></argsstring>
+        <name>d_payload_length</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_payload_length</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="41" column="15" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a8f2e85ba39d8ee1549a607744fc09be5" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::cemmse::dvbt_pilot_gen::d_zeros_on_left</definition>
+        <argsstring></argsstring>
+        <name>d_zeros_on_left</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_zeros_on_left</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="42" column="15" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a189684e729538b17a38dcd4be4f789ae" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::cemmse::dvbt_pilot_gen::d_zeros_on_right</definition>
+        <argsstring></argsstring>
+        <name>d_zeros_on_right</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_zeros_on_right</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="43" column="15" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1af1149baf6fb2a837562baa524282f74c" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::cemmse::dvbt_pilot_gen::d_cp_length</definition>
+        <argsstring></argsstring>
+        <name>d_cp_length</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_cp_length</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="44" column="15" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a51936258d8d4fc9ddd89f2cfc52a3066" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::cemmse::dvbt_pilot_gen::d_spilot_carriers_size</definition>
+        <argsstring></argsstring>
+        <name>d_spilot_carriers_size</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_spilot_carriers_size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="80" column="9" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1aa1e8e9d19b5d8de0b8836fddbe39cda3" prot="private" static="no" mutable="no">
+        <type>volk::vector&lt; gr_complex &gt;</type>
+        <definition>volk::vector&lt;gr_complex&gt; gr::cemmse::dvbt_pilot_gen::d_spilot_carriers_val</definition>
+        <argsstring></argsstring>
+        <name>d_spilot_carriers_val</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_spilot_carriers_val</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="81" column="18" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1af01795c9d82877cec0b1809e779c3423" prot="private" static="no" mutable="no">
+        <type>volk::vector&lt; gr_complex &gt;</type>
+        <definition>volk::vector&lt;gr_complex&gt; gr::cemmse::dvbt_pilot_gen::d_channel_gain</definition>
+        <argsstring></argsstring>
+        <name>d_channel_gain</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_channel_gain</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="82" column="18" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a5c8111d6eca66654679691091624ac69" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::cemmse::dvbt_pilot_gen::d_cpilot_carriers_size</definition>
+        <argsstring></argsstring>
+        <name>d_cpilot_carriers_size</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_cpilot_carriers_size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="84" column="9" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ac3daf7d2ca7be79776c16f0c74e5b8d1" prot="private" static="no" mutable="no">
+        <type>const int *</type>
+        <definition>const int* gr::cemmse::dvbt_pilot_gen::d_cpilot_carriers</definition>
+        <argsstring></argsstring>
+        <name>d_cpilot_carriers</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_cpilot_carriers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="85" column="15" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1abfe12ea34687559f98d27cba4e7540fb" prot="private" static="no" mutable="no">
+        <type>volk::vector&lt; float &gt;</type>
+        <definition>volk::vector&lt;float&gt; gr::cemmse::dvbt_pilot_gen::d_known_phase_diff</definition>
+        <argsstring></argsstring>
+        <name>d_known_phase_diff</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_known_phase_diff</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="86" column="18" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1af51b68f3daaf19725574cb371e0835de" prot="private" static="no" mutable="no">
+        <type>volk::vector&lt; float &gt;</type>
+        <definition>volk::vector&lt;float&gt; gr::cemmse::dvbt_pilot_gen::d_cpilot_phase_diff</definition>
+        <argsstring></argsstring>
+        <name>d_cpilot_phase_diff</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_cpilot_phase_diff</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="87" column="18" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ae8b042317589bb8562a22689e3ffd9b9" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::cemmse::dvbt_pilot_gen::d_freq_offset</definition>
+        <argsstring></argsstring>
+        <name>d_freq_offset</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_freq_offset</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="88" column="9" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1adbe57588df1d14ac2d13a00c0ce6d66b" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::cemmse::dvbt_pilot_gen::d_carrier_freq_correction</definition>
+        <argsstring></argsstring>
+        <name>d_carrier_freq_correction</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_carrier_freq_correction</qualifiedname>
+        <initializer>= 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="89" column="11" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1af15ead6f6588601b68b627412a4019d7" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::cemmse::dvbt_pilot_gen::d_sampling_freq_correction</definition>
+        <argsstring></argsstring>
+        <name>d_sampling_freq_correction</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_sampling_freq_correction</qualifiedname>
+        <initializer>= 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="90" column="11" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a2c57217951d9e2e84ec0d5cd10f0ec5d" prot="private" static="no" mutable="no">
+        <type>volk::vector&lt; gr_complex &gt;</type>
+        <definition>volk::vector&lt;gr_complex&gt; gr::cemmse::dvbt_pilot_gen::d_derot_in</definition>
+        <argsstring></argsstring>
+        <name>d_derot_in</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_derot_in</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="93" column="18" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ace64a2fc4e501967e218b7b1b48aa26c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::cemmse::dvbt_pilot_gen::d_tps_carriers_size</definition>
+        <argsstring></argsstring>
+        <name>d_tps_carriers_size</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_tps_carriers_size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="95" column="9" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a7fb8a0d9739a3ef03731022a05c8d271" prot="private" static="no" mutable="no">
+        <type>const int *</type>
+        <definition>const int* gr::cemmse::dvbt_pilot_gen::d_tps_carriers</definition>
+        <argsstring></argsstring>
+        <name>d_tps_carriers</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_tps_carriers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="96" column="15" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ae0d3222f9390cfc26a26de0a4d4aef2d" prot="private" static="no" mutable="no">
+        <type>volk::vector&lt; gr_complex &gt;</type>
+        <definition>volk::vector&lt;gr_complex&gt; gr::cemmse::dvbt_pilot_gen::d_tps_carriers_val</definition>
+        <argsstring></argsstring>
+        <name>d_tps_carriers_val</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_tps_carriers_val</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="97" column="18" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ab0007469ad4f3b31ccab1ee4404042f0" prot="private" static="no" mutable="no">
+        <type>volk::vector&lt; unsigned char &gt;</type>
+        <definition>volk::vector&lt;unsigned char&gt; gr::cemmse::dvbt_pilot_gen::d_tps_data</definition>
+        <argsstring></argsstring>
+        <name>d_tps_data</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_tps_data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="100" column="18" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1adf2b53bcc3078eedd10b3c76d10fcce1" prot="private" static="no" mutable="no">
+        <type>volk::vector&lt; gr_complex &gt;</type>
+        <definition>volk::vector&lt;gr_complex&gt; gr::cemmse::dvbt_pilot_gen::d_prev_tps_symbol</definition>
+        <argsstring></argsstring>
+        <name>d_prev_tps_symbol</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_prev_tps_symbol</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="102" column="18" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a99a1b6da8688433d722f911f32826bdf" prot="private" static="no" mutable="no">
+        <type>volk::vector&lt; gr_complex &gt;</type>
+        <definition>volk::vector&lt;gr_complex&gt; gr::cemmse::dvbt_pilot_gen::d_tps_symbol</definition>
+        <argsstring></argsstring>
+        <name>d_tps_symbol</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_tps_symbol</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="104" column="18" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a65f7de45b80f6d2b15a29845b6b614cc" prot="private" static="no" mutable="no">
+        <type>std::deque&lt; char &gt;</type>
+        <definition>std::deque&lt;char&gt; gr::cemmse::dvbt_pilot_gen::d_rcv_tps_data</definition>
+        <argsstring></argsstring>
+        <name>d_rcv_tps_data</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_rcv_tps_data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="106" column="16" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a6242873eaf396f608138997a2e560408" prot="private" static="no" mutable="no">
+        <type>std::deque&lt; char &gt;</type>
+        <definition>std::deque&lt;char&gt; gr::cemmse::dvbt_pilot_gen::d_tps_sync_evenv</definition>
+        <argsstring></argsstring>
+        <name>d_tps_sync_evenv</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_tps_sync_evenv</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="108" column="16" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1aab95f53ebe418f4524148e2e39f6c2a6" prot="private" static="no" mutable="no">
+        <type>std::deque&lt; char &gt;</type>
+        <definition>std::deque&lt;char&gt; gr::cemmse::dvbt_pilot_gen::d_tps_sync_oddv</definition>
+        <argsstring></argsstring>
+        <name>d_tps_sync_oddv</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_tps_sync_oddv</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="109" column="16" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1adb947d4c34760f9024edf8d4a741de0e" prot="private" static="no" mutable="no">
+        <type>volk::vector&lt; int &gt;</type>
+        <definition>volk::vector&lt;int&gt; gr::cemmse::dvbt_pilot_gen::d_chanestim_carriers</definition>
+        <argsstring></argsstring>
+        <name>d_chanestim_carriers</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_chanestim_carriers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="113" column="18" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a5163ab76286d80f782d9b585dbf8ffb8" prot="private" static="no" mutable="no">
+        <type>volk::vector&lt; int &gt;</type>
+        <definition>volk::vector&lt;int&gt; gr::cemmse::dvbt_pilot_gen::d_payload_carriers</definition>
+        <argsstring></argsstring>
+        <name>d_payload_carriers</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_payload_carriers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="116" column="18" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a0668b82355d93c4a9fc4ffab77e8ddcf" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::cemmse::dvbt_pilot_gen::d_spilot_index</definition>
+        <argsstring></argsstring>
+        <name>d_spilot_index</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_spilot_index</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="119" column="9" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a6d8bde504810db907995a5eeb85fd8cb" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::cemmse::dvbt_pilot_gen::d_cpilot_index</definition>
+        <argsstring></argsstring>
+        <name>d_cpilot_index</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_cpilot_index</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="120" column="9" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ac18525b76b42289071ea49b4c1d60837" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::cemmse::dvbt_pilot_gen::d_tpilot_index</definition>
+        <argsstring></argsstring>
+        <name>d_tpilot_index</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_tpilot_index</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="121" column="9" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a862851ebac11292b6124773a45beb22c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::cemmse::dvbt_pilot_gen::d_symbol_index</definition>
+        <argsstring></argsstring>
+        <name>d_symbol_index</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_symbol_index</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="122" column="9" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a6814579b32214d99a8ec2ae16650df6b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::cemmse::dvbt_pilot_gen::d_symbol_index_known</definition>
+        <argsstring></argsstring>
+        <name>d_symbol_index_known</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_symbol_index_known</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="123" column="9" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1acbe5fa794715804965b76449754c32ff" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::cemmse::dvbt_pilot_gen::d_frame_index</definition>
+        <argsstring></argsstring>
+        <name>d_frame_index</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_frame_index</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="124" column="9" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a65bf9a15f2a1d02a5ee7e72825d939aa" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::cemmse::dvbt_pilot_gen::d_superframe_index</definition>
+        <argsstring></argsstring>
+        <name>d_superframe_index</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_superframe_index</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="125" column="9" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1adfaf6ef3e1d999e8439334dd4ebe8f33" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::cemmse::dvbt_pilot_gen::d_freq_offset_max</definition>
+        <argsstring></argsstring>
+        <name>d_freq_offset_max</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_freq_offset_max</qualifiedname>
+        <initializer>= 8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="126" column="9" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a23d4f6116f92271ea2a7ca5294811028" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::cemmse::dvbt_pilot_gen::d_trigger_index</definition>
+        <argsstring></argsstring>
+        <name>d_trigger_index</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_trigger_index</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="127" column="9" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a5cada149c717142c1cceb3a1e6c098bf" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::cemmse::dvbt_pilot_gen::d_payload_index</definition>
+        <argsstring></argsstring>
+        <name>d_payload_index</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_payload_index</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="128" column="9" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a4d02b116dda777b14c55b662129537c7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::cemmse::dvbt_pilot_gen::d_chanestim_index</definition>
+        <argsstring></argsstring>
+        <name>d_chanestim_index</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_chanestim_index</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="129" column="9" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a5d8bc1ee21e1ade641fbd3b32893382f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::cemmse::dvbt_pilot_gen::d_prev_mod_symbol_index</definition>
+        <argsstring></argsstring>
+        <name>d_prev_mod_symbol_index</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_prev_mod_symbol_index</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="130" column="9" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a55aac7970ad713e45d78faffb172ce33" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::cemmse::dvbt_pilot_gen::d_mod_symbol_index</definition>
+        <argsstring></argsstring>
+        <name>d_mod_symbol_index</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_mod_symbol_index</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="131" column="9" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1af3e21235e2ad0c73cbd4056944d0c458" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::cemmse::dvbt_pilot_gen::d_equalizer_ready</definition>
+        <argsstring></argsstring>
+        <name>d_equalizer_ready</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_equalizer_ready</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="132" column="9" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a0542372fb61a4d7e240e7e06ff8775de" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; char &gt;</type>
+        <definition>std::vector&lt;char&gt; gr::cemmse::dvbt_pilot_gen::d_wk</definition>
+        <argsstring></argsstring>
+        <name>d_wk</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_wk</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="135" column="17" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1acc79b03865c964896eea811aef602de0" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::cemmse::dvbt_pilot_gen::d_symbols_per_frame</definition>
+        <argsstring></argsstring>
+        <name>d_symbols_per_frame</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_symbols_per_frame</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="46" column="22" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a2bf72db888e6af897ef46c1811855659" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::cemmse::dvbt_pilot_gen::d_frames_per_superframe</definition>
+        <argsstring></argsstring>
+        <name>d_frames_per_superframe</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_frames_per_superframe</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="47" column="22" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ae5228b713566a4178c0905939e285d25" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float gr::cemmse::dvbt_pilot_gen::d_snr</definition>
+        <argsstring></argsstring>
+        <name>d_snr</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_snr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="48" column="24" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1aa1897790b6dc83c958cf1416eb845136" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::cemmse::dvbt_pilot_gen::d_spilot_carriers_size_2k</definition>
+        <argsstring></argsstring>
+        <name>d_spilot_carriers_size_2k</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_spilot_carriers_size_2k</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="52" column="22" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1aca88c4cec50ad97dae52c0b700903e0e" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::cemmse::dvbt_pilot_gen::d_cpilot_carriers_size_2k</definition>
+        <argsstring></argsstring>
+        <name>d_cpilot_carriers_size_2k</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_cpilot_carriers_size_2k</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="55" column="22" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a1c7f96dccf9fcdaff17f2516f6ceffa5" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::cemmse::dvbt_pilot_gen::d_cpilot_carriers_2k[]</definition>
+        <argsstring>[]</argsstring>
+        <name>d_cpilot_carriers_2k</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_cpilot_carriers_2k</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="56" column="22" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ad4d32df178eee33acd303eab1836bfea" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::cemmse::dvbt_pilot_gen::d_tps_carriers_size_2k</definition>
+        <argsstring></argsstring>
+        <name>d_tps_carriers_size_2k</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_tps_carriers_size_2k</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="59" column="22" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a4efd844f61b354e4bbfc62e377423531" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::cemmse::dvbt_pilot_gen::d_tps_carriers_2k[]</definition>
+        <argsstring>[]</argsstring>
+        <name>d_tps_carriers_2k</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_tps_carriers_2k</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="60" column="22" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a559091fd946a89d9080b4cd3f048c0ef" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::cemmse::dvbt_pilot_gen::d_spilot_carriers_size_8k</definition>
+        <argsstring></argsstring>
+        <name>d_spilot_carriers_size_8k</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_spilot_carriers_size_8k</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="64" column="22" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a4242270e20c5268498ac386f3110e28b" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::cemmse::dvbt_pilot_gen::d_cpilot_carriers_size_8k</definition>
+        <argsstring></argsstring>
+        <name>d_cpilot_carriers_size_8k</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_cpilot_carriers_size_8k</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="67" column="22" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1acf2509700480194c1391a0c83a165527" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::cemmse::dvbt_pilot_gen::d_cpilot_carriers_8k[]</definition>
+        <argsstring>[]</argsstring>
+        <name>d_cpilot_carriers_8k</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_cpilot_carriers_8k</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="68" column="22" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a1a651a88b11fec01f064577c05f3c90a" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::cemmse::dvbt_pilot_gen::d_tps_carriers_size_8k</definition>
+        <argsstring></argsstring>
+        <name>d_tps_carriers_size_8k</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_tps_carriers_size_8k</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="71" column="22" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ad155a5f4ced2b5b866476ac3bfe96170" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::cemmse::dvbt_pilot_gen::d_tps_carriers_8k[]</definition>
+        <argsstring>[]</argsstring>
+        <name>d_tps_carriers_8k</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_tps_carriers_8k</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="72" column="22" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1abe211812c130a3ca4548e1f1ff41a0bc" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::cemmse::dvbt_pilot_gen::d_tps_sync_size</definition>
+        <argsstring></argsstring>
+        <name>d_tps_sync_size</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_tps_sync_size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="75" column="22" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ac9e5589d14e39f532517dedeb2798575" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::cemmse::dvbt_pilot_gen::d_tps_sync_even[]</definition>
+        <argsstring>[]</argsstring>
+        <name>d_tps_sync_even</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_tps_sync_even</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="76" column="22" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1aa30a520b36e242071e70583288abedf9" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::cemmse::dvbt_pilot_gen::d_tps_sync_odd[]</definition>
+        <argsstring>[]</argsstring>
+        <name>d_tps_sync_odd</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_tps_sync_odd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="77" column="22" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a4aac3aa6b9397b90a27d1e64cf37520f" prot="public" static="no" mutable="no">
+        <type>gr::logger_ptr</type>
+        <definition>gr::logger_ptr gr::cemmse::dvbt_pilot_gen::d_logger</definition>
+        <argsstring></argsstring>
+        <name>d_logger</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::d_logger</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="199" column="20" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="199" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a36db697a5e1d487b0d42bf7352c35936" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::cemmse::dvbt_pilot_gen::snr</definition>
+        <argsstring></argsstring>
+        <name>snr</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::snr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="204" column="11" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="204" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1aafd441b54695a426d041c2931833d7a1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::cemmse::dvbt_pilot_gen::generate_prbs</definition>
+        <argsstring>()</argsstring>
+        <name>generate_prbs</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::generate_prbs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="137" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a60808e1cc97e94ee00c202c0d47dde99" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::cemmse::dvbt_pilot_gen::set_tps_bits</definition>
+        <argsstring>(int start, int stop, unsigned int data)</argsstring>
+        <name>set_tps_bits</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::set_tps_bits</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>stop</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="140" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ab88515e723219c991b2acb23f2ec2d18" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::cemmse::dvbt_pilot_gen::set_symbol_index</definition>
+        <argsstring>(int index)</argsstring>
+        <name>set_symbol_index</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::set_symbol_index</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="142" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a6d6221fb768f3e579f58a6b6c8b4601c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::cemmse::dvbt_pilot_gen::get_symbol_index</definition>
+        <argsstring>()</argsstring>
+        <name>get_symbol_index</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::get_symbol_index</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="143" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1af9060e5c2b86d79d50f3423480dcb649" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::cemmse::dvbt_pilot_gen::set_tps_data</definition>
+        <argsstring>()</argsstring>
+        <name>set_tps_data</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::set_tps_data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="144" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1acc142c740721fe4adf4461a091595ef7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::cemmse::dvbt_pilot_gen::get_tps_data</definition>
+        <argsstring>()</argsstring>
+        <name>get_tps_data</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::get_tps_data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="145" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1acd42a6e4fc57fc6ea52fe64db65c2747" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::cemmse::dvbt_pilot_gen::reset_pilot_generator</definition>
+        <argsstring>()</argsstring>
+        <name>reset_pilot_generator</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::reset_pilot_generator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="147" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ab0ecfc3c2bd6f2238f2f0ed8ec0c8859" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::cemmse::dvbt_pilot_gen::get_current_spilot</definition>
+        <argsstring>(int spilot) const</argsstring>
+        <name>get_current_spilot</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::get_current_spilot</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>spilot</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="150" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ad8ec42fd199150fb2a4670ffcf41618e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::cemmse::dvbt_pilot_gen::get_spilot_value</definition>
+        <argsstring>(int spilot)</argsstring>
+        <name>get_spilot_value</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::get_spilot_value</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>spilot</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="151" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1aa1fde203932b6321c131c9e38b1557b6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::cemmse::dvbt_pilot_gen::set_spilot_value</definition>
+        <argsstring>(int spilot, gr_complex val)</argsstring>
+        <name>set_spilot_value</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::set_spilot_value</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>spilot</declname>
+        </param>
+        <param>
+          <type>gr_complex</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="152" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1afaf8eee270604c6ad3329132f23c9b52" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::cemmse::dvbt_pilot_gen::advance_spilot</definition>
+        <argsstring>(int sindex)</argsstring>
+        <name>advance_spilot</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::advance_spilot</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>sindex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="153" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ab41c5212d0f438a1227a86dfc457013a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::cemmse::dvbt_pilot_gen::get_first_spilot</definition>
+        <argsstring>()</argsstring>
+        <name>get_first_spilot</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::get_first_spilot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="155" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a26a02f4c6eabba3c994392d051382eee" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::cemmse::dvbt_pilot_gen::get_last_spilot</definition>
+        <argsstring>() const</argsstring>
+        <name>get_last_spilot</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::get_last_spilot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="156" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a1b3d1f3e210db438c6514cab1b08e8d5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::cemmse::dvbt_pilot_gen::get_next_spilot</definition>
+        <argsstring>()</argsstring>
+        <name>get_next_spilot</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::get_next_spilot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="157" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a5b6cca1ffee3fc9dcc05c18277c8d621" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::cemmse::dvbt_pilot_gen::process_spilot_data</definition>
+        <argsstring>(const gr_complex *in, float snr)</argsstring>
+        <name>process_spilot_data</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::process_spilot_data</qualifiedname>
+        <param>
+          <type>const gr_complex *</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>snr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="159" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1aa087629acc24fe0958e4f4348af01152" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::cemmse::dvbt_pilot_gen::set_channel_gain</definition>
+        <argsstring>(int spilot, gr_complex val, float snr)</argsstring>
+        <name>set_channel_gain</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::set_channel_gain</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>spilot</declname>
+        </param>
+        <param>
+          <type>gr_complex</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>snr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="163" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a7db25905c58de73e4f1523051f5c5ea1" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::cemmse::dvbt_pilot_gen::get_current_cpilot</definition>
+        <argsstring>() const</argsstring>
+        <name>get_current_cpilot</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::get_current_cpilot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="167" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a8e829efed1a05754d9d0f35873b81158" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::cemmse::dvbt_pilot_gen::get_cpilot_value</definition>
+        <argsstring>(int cpilot)</argsstring>
+        <name>get_cpilot_value</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::get_cpilot_value</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>cpilot</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="168" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a759ac1718171f42cc5d80b0bbd3ef1a2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::cemmse::dvbt_pilot_gen::advance_cpilot</definition>
+        <argsstring>()</argsstring>
+        <name>advance_cpilot</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::advance_cpilot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="169" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1adfed86800a9549956934eb1012edf5c2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::cemmse::dvbt_pilot_gen::process_cpilot_data</definition>
+        <argsstring>(const gr_complex *in)</argsstring>
+        <name>process_cpilot_data</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::process_cpilot_data</qualifiedname>
+        <param>
+          <type>const gr_complex *</type>
+          <declname>in</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="171" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1acb58a080f6baf9206a24cbcfa4d00c62" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::cemmse::dvbt_pilot_gen::compute_oneshot_csft</definition>
+        <argsstring>(const gr_complex *in)</argsstring>
+        <name>compute_oneshot_csft</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::compute_oneshot_csft</qualifiedname>
+        <param>
+          <type>const gr_complex *</type>
+          <declname>in</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="172" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a625ba8befb347a61e4b7d2342eac5007" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>gr_complex *</type>
+        <definition>gr_complex * gr::cemmse::dvbt_pilot_gen::frequency_correction</definition>
+        <argsstring>(const gr_complex *in, gr_complex *out)</argsstring>
+        <name>frequency_correction</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::frequency_correction</qualifiedname>
+        <param>
+          <type>const gr_complex *</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>gr_complex *</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="173" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a0d8e2b4c8e9fa53ef0c35c00613569cc" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::cemmse::dvbt_pilot_gen::get_current_tpilot</definition>
+        <argsstring>() const</argsstring>
+        <name>get_current_tpilot</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::get_current_tpilot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="176" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a138f5926a7e29d8a4666c5e945ed2af2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::cemmse::dvbt_pilot_gen::get_tpilot_value</definition>
+        <argsstring>(int tpilot)</argsstring>
+        <name>get_tpilot_value</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::get_tpilot_value</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>tpilot</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="177" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a48a19137c4439265e820ecd066321d93" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::cemmse::dvbt_pilot_gen::advance_tpilot</definition>
+        <argsstring>()</argsstring>
+        <name>advance_tpilot</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::advance_tpilot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="178" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a886a9b2431969f502f15864ceafcded3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::cemmse::dvbt_pilot_gen::format_tps_data</definition>
+        <argsstring>()</argsstring>
+        <name>format_tps_data</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::format_tps_data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="180" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a58d053d73f7a5a912be89af52a1e3c0b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::cemmse::dvbt_pilot_gen::generate_bch_code</definition>
+        <argsstring>()</argsstring>
+        <name>generate_bch_code</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::generate_bch_code</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="182" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a2e56827749651c57f0b03290a391b13d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::cemmse::dvbt_pilot_gen::verify_bch_code</definition>
+        <argsstring>(std::deque&lt; char &gt; data)</argsstring>
+        <name>verify_bch_code</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::verify_bch_code</qualifiedname>
+        <param>
+          <type>std::deque&lt; char &gt;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="184" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ad4887d80695249c9c54d6ef8b25bde06" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::cemmse::dvbt_pilot_gen::process_tps_data</definition>
+        <argsstring>(const gr_complex *in, const int diff_symbo_index)</argsstring>
+        <name>process_tps_data</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::process_tps_data</qualifiedname>
+        <param>
+          <type>const gr_complex *</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>diff_symbo_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="186" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a37a871d6b83d566606de7e8c2c234527" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::cemmse::dvbt_pilot_gen::set_chanestim_carrier</definition>
+        <argsstring>(int k)</argsstring>
+        <name>set_chanestim_carrier</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::set_chanestim_carrier</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>k</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="189" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a1111df63736c815ed748c3b2909d9709" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::cemmse::dvbt_pilot_gen::get_current_payload</definition>
+        <argsstring>()</argsstring>
+        <name>get_current_payload</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::get_current_payload</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="192" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a0e2ba4cf967e43ffefee814fb899408a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::cemmse::dvbt_pilot_gen::advance_chanestim</definition>
+        <argsstring>()</argsstring>
+        <name>advance_chanestim</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::advance_chanestim</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="193" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a7d5cd7214e6029a562bcd5311c40b52e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::cemmse::dvbt_pilot_gen::set_payload_carrier</definition>
+        <argsstring>(int k)</argsstring>
+        <name>set_payload_carrier</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::set_payload_carrier</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>k</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="194" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1aae088a32f063fa6ef85f25d2878593dc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::cemmse::dvbt_pilot_gen::advance_payload</definition>
+        <argsstring>()</argsstring>
+        <name>advance_payload</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::advance_payload</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="195" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1aa6ffa46aadeb8a7c2b93c038691ac84a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::cemmse::dvbt_pilot_gen::process_payload_data</definition>
+        <argsstring>(const gr_complex *in, gr_complex *out)</argsstring>
+        <name>process_payload_data</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::process_payload_data</qualifiedname>
+        <param>
+          <type>const gr_complex *</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>gr_complex *</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="196" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ae55e8a4d478546d38b6b407fce13ec11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::cemmse::dvbt_pilot_gen::dvbt_pilot_gen</definition>
+        <argsstring>(const dvbt_configure &amp;config)</argsstring>
+        <name>dvbt_pilot_gen</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::dvbt_pilot_gen</qualifiedname>
+        <param>
+          <type>const dvbt_configure &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="201" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a20d51e3fe32b74a4e482c73bbc6d2bd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::cemmse::dvbt_pilot_gen::~dvbt_pilot_gen</definition>
+        <argsstring>()</argsstring>
+        <name>~dvbt_pilot_gen</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::~dvbt_pilot_gen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="202" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a8e2528afccf9e7b1507fa45358f3b2f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::cemmse::dvbt_pilot_gen::update_output</definition>
+        <argsstring>(const gr_complex *in, gr_complex *out)</argsstring>
+        <name>update_output</name>
+        <qualifiedname>gr::cemmse::dvbt_pilot_gen::update_output</qualifiedname>
+        <param>
+          <type>const gr_complex *</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>gr_complex *</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>ETSI EN 300 744 Clause 4.5. <linebreak/>
+Update a set of carriers with the pilot signals. <linebreak/>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="210" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="32" column="1" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="33" bodyend="223"/>
+    <listofallmembers>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a0e2ba4cf967e43ffefee814fb899408a" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>advance_chanestim</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a759ac1718171f42cc5d80b0bbd3ef1a2" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>advance_cpilot</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1aae088a32f063fa6ef85f25d2878593dc" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>advance_payload</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1afaf8eee270604c6ad3329132f23c9b52" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>advance_spilot</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a48a19137c4439265e820ecd066321d93" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>advance_tpilot</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1acb58a080f6baf9206a24cbcfa4d00c62" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>compute_oneshot_csft</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a3a4967c8137e1da223ba6a9afa64e524" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>config</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1adbe57588df1d14ac2d13a00c0ce6d66b" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_carrier_freq_correction</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1adb947d4c34760f9024edf8d4a741de0e" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_chanestim_carriers</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a4d02b116dda777b14c55b662129537c7" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_chanestim_index</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1af01795c9d82877cec0b1809e779c3423" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_channel_gain</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1af1149baf6fb2a837562baa524282f74c" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_cp_length</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ac3daf7d2ca7be79776c16f0c74e5b8d1" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_cpilot_carriers</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a1c7f96dccf9fcdaff17f2516f6ceffa5" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_cpilot_carriers_2k</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1acf2509700480194c1391a0c83a165527" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_cpilot_carriers_8k</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a5c8111d6eca66654679691091624ac69" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_cpilot_carriers_size</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1aca88c4cec50ad97dae52c0b700903e0e" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_cpilot_carriers_size_2k</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a4242270e20c5268498ac386f3110e28b" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_cpilot_carriers_size_8k</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a6d8bde504810db907995a5eeb85fd8cb" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_cpilot_index</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1af51b68f3daaf19725574cb371e0835de" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_cpilot_phase_diff</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a2c57217951d9e2e84ec0d5cd10f0ec5d" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_derot_in</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1af3e21235e2ad0c73cbd4056944d0c458" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_equalizer_ready</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1aef14000d2dc9de62bd2982f3275fbad9" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_fft_length</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1acbe5fa794715804965b76449754c32ff" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_frame_index</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a2bf72db888e6af897ef46c1811855659" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_frames_per_superframe</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ae8b042317589bb8562a22689e3ffd9b9" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_freq_offset</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1adfaf6ef3e1d999e8439334dd4ebe8f33" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_freq_offset_max</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1aad88c7c2e31f7a1b486c39e5bab00769" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_Kmax</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a9371de417b730693f3d0aeecc0261b63" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_Kmin</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1abfe12ea34687559f98d27cba4e7540fb" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_known_phase_diff</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a4aac3aa6b9397b90a27d1e64cf37520f" prot="public" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_logger</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a55aac7970ad713e45d78faffb172ce33" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_mod_symbol_index</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a5163ab76286d80f782d9b585dbf8ffb8" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_payload_carriers</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a5cada149c717142c1cceb3a1e6c098bf" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_payload_index</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ae724e651035423ed2e2233e9094fcd86" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_payload_length</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a5d8bc1ee21e1ade641fbd3b32893382f" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_prev_mod_symbol_index</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1adf2b53bcc3078eedd10b3c76d10fcce1" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_prev_tps_symbol</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a65f7de45b80f6d2b15a29845b6b614cc" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_rcv_tps_data</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1af15ead6f6588601b68b627412a4019d7" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_sampling_freq_correction</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ae5228b713566a4178c0905939e285d25" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_snr</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a51936258d8d4fc9ddd89f2cfc52a3066" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_spilot_carriers_size</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1aa1897790b6dc83c958cf1416eb845136" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_spilot_carriers_size_2k</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a559091fd946a89d9080b4cd3f048c0ef" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_spilot_carriers_size_8k</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1aa1e8e9d19b5d8de0b8836fddbe39cda3" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_spilot_carriers_val</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a0668b82355d93c4a9fc4ffab77e8ddcf" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_spilot_index</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a65bf9a15f2a1d02a5ee7e72825d939aa" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_superframe_index</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a862851ebac11292b6124773a45beb22c" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_symbol_index</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a6814579b32214d99a8ec2ae16650df6b" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_symbol_index_known</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1acc79b03865c964896eea811aef602de0" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_symbols_per_frame</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ac18525b76b42289071ea49b4c1d60837" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_tpilot_index</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a7fb8a0d9739a3ef03731022a05c8d271" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_tps_carriers</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a4efd844f61b354e4bbfc62e377423531" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_tps_carriers_2k</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ad155a5f4ced2b5b866476ac3bfe96170" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_tps_carriers_8k</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ace64a2fc4e501967e218b7b1b48aa26c" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_tps_carriers_size</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ad4d32df178eee33acd303eab1836bfea" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_tps_carriers_size_2k</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a1a651a88b11fec01f064577c05f3c90a" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_tps_carriers_size_8k</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ae0d3222f9390cfc26a26de0a4d4aef2d" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_tps_carriers_val</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ab0007469ad4f3b31ccab1ee4404042f0" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_tps_data</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a99a1b6da8688433d722f911f32826bdf" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_tps_symbol</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ac9e5589d14e39f532517dedeb2798575" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_tps_sync_even</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a6242873eaf396f608138997a2e560408" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_tps_sync_evenv</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1aa30a520b36e242071e70583288abedf9" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_tps_sync_odd</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1aab95f53ebe418f4524148e2e39f6c2a6" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_tps_sync_oddv</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1abe211812c130a3ca4548e1f1ff41a0bc" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_tps_sync_size</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a23d4f6116f92271ea2a7ca5294811028" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_trigger_index</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a0542372fb61a4d7e240e7e06ff8775de" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_wk</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a8f2e85ba39d8ee1549a607744fc09be5" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_zeros_on_left</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a189684e729538b17a38dcd4be4f789ae" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>d_zeros_on_right</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ae55e8a4d478546d38b6b407fce13ec11" prot="public" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>dvbt_pilot_gen</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a886a9b2431969f502f15864ceafcded3" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>format_tps_data</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a625ba8befb347a61e4b7d2342eac5007" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>frequency_correction</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a58d053d73f7a5a912be89af52a1e3c0b" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>generate_bch_code</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1aafd441b54695a426d041c2931833d7a1" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>generate_prbs</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a8e829efed1a05754d9d0f35873b81158" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>get_cpilot_value</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a7db25905c58de73e4f1523051f5c5ea1" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>get_current_cpilot</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a1111df63736c815ed748c3b2909d9709" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>get_current_payload</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ab0ecfc3c2bd6f2238f2f0ed8ec0c8859" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>get_current_spilot</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a0d8e2b4c8e9fa53ef0c35c00613569cc" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>get_current_tpilot</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ab41c5212d0f438a1227a86dfc457013a" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>get_first_spilot</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a26a02f4c6eabba3c994392d051382eee" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>get_last_spilot</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a1b3d1f3e210db438c6514cab1b08e8d5" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>get_next_spilot</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ad8ec42fd199150fb2a4670ffcf41618e" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>get_spilot_value</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a6d6221fb768f3e579f58a6b6c8b4601c" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>get_symbol_index</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a138f5926a7e29d8a4666c5e945ed2af2" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>get_tpilot_value</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1acc142c740721fe4adf4461a091595ef7" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>get_tps_data</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1adfed86800a9549956934eb1012edf5c2" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>process_cpilot_data</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1aa6ffa46aadeb8a7c2b93c038691ac84a" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>process_payload_data</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a5b6cca1ffee3fc9dcc05c18277c8d621" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>process_spilot_data</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ad4887d80695249c9c54d6ef8b25bde06" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>process_tps_data</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1acd42a6e4fc57fc6ea52fe64db65c2747" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>reset_pilot_generator</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a37a871d6b83d566606de7e8c2c234527" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>set_chanestim_carrier</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1aa087629acc24fe0958e4f4348af01152" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>set_channel_gain</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a7d5cd7214e6029a562bcd5311c40b52e" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>set_payload_carrier</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1aa1fde203932b6321c131c9e38b1557b6" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>set_spilot_value</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1ab88515e723219c991b2acb23f2ec2d18" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>set_symbol_index</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a60808e1cc97e94ee00c202c0d47dde99" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>set_tps_bits</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1af9060e5c2b86d79d50f3423480dcb649" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>set_tps_data</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a36db697a5e1d487b0d42bf7352c35936" prot="public" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>snr</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a8e2528afccf9e7b1507fa45358f3b2f6" prot="public" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>update_output</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a2e56827749651c57f0b03290a391b13d" prot="private" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>verify_bch_code</name></member>
+      <member refid="classgr_1_1cemmse_1_1dvbt__pilot__gen_1a20d51e3fe32b74a4e482c73bbc6d2bd2" prot="public" virt="non-virtual"><scope>gr::cemmse::dvbt_pilot_gen</scope><name>~dvbt_pilot_gen</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,48 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"include/gnuradio/cemmse/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/gnuradio/cemmse",
+			"paths" : 
+			[
+				"include/gnuradio/cemmse/api.h",
+				"include/gnuradio/cemmse/dvb_config.h",
+				"include/gnuradio/cemmse/dvbt_config.h",
+				"include/gnuradio/cemmse/dvbt_configure.h",
+				"include/gnuradio/cemmse/refsignals.h",
+				"include/gnuradio/cemmse/demod_refsignals.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "include/gnuradio/cemmse",
+		"source" : "include/gnuradio/cemmse"
+	}
+}

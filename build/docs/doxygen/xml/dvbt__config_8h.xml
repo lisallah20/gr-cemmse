@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dvbt__config_8h" kind="file" language="C++">
+    <compoundname>dvbt_config.h</compoundname>
+    <includes refid="api_8h" local="no">gnuradio/cemmse/api.h</includes>
+    <includedby refid="demod__refsignals_8h" local="no">demod_refsignals.h</includedby>
+    <includedby refid="dvbt__configure_8h" local="no">dvbt_configure.h</includedby>
+    <includedby refid="refsignals_8h" local="no">refsignals.h</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>gnuradio/cemmse/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>dvbt_config.h</label>
+        <link refid="dvbt__config_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gnuradio/attributes.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>demod_refsignals.h</label>
+        <link refid="demod__refsignals_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>dvbt_config.h</label>
+        <link refid="dvbt__config_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>dvbt_configure.h</label>
+        <link refid="dvbt__configure_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>refsignals.h</label>
+        <link refid="refsignals_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>demod_refsignals_impl.h</label>
+        <link refid="demod__refsignals__impl_8h"/>
+      </node>
+      <node id="5">
+        <label>refsignals_impl.h</label>
+        <link refid="refsignals__impl_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1cemmse">gr::cemmse</innernamespace>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="dvbt__config_8h_1a7b51902feebb001d1bd3eebe97dfeb4c" prot="public" static="no">
+        <type>gr::cemmse::dvbt_hierarchy_t</type>
+        <definition>typedef gr::cemmse::dvbt_hierarchy_t dvbt_hierarchy_t</definition>
+        <argsstring></argsstring>
+        <name>dvbt_hierarchy_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/include/gnuradio/cemmse/dvbt_config.h" line="44" column="38" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/include/gnuradio/cemmse/dvbt_config.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="dvbt__config_8h_1a1164215ababe632659b10b178ec35670" prot="public" static="no">
+        <type>gr::cemmse::dvbt_transmission_mode_t</type>
+        <definition>typedef gr::cemmse::dvbt_transmission_mode_t dvbt_transmission_mode_t</definition>
+        <argsstring></argsstring>
+        <name>dvbt_transmission_mode_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/include/gnuradio/cemmse/dvbt_config.h" line="45" column="46" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/include/gnuradio/cemmse/dvbt_config.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/include/gnuradio/cemmse/dvbt_config.h"/>
+  </compounddef>
+</doxygen>

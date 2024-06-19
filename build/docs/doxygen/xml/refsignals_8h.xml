@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="refsignals_8h" kind="file" language="C++">
+    <compoundname>refsignals.h</compoundname>
+    <includes local="no">gnuradio/block.h</includes>
+    <includes refid="api_8h" local="no">gnuradio/cemmse/api.h</includes>
+    <includes refid="dvbt__config_8h" local="no">gnuradio/cemmse/dvbt_config.h</includes>
+    <includes refid="dvb__config_8h" local="no">gnuradio/cemmse/dvb_config.h</includes>
+    <includedby refid="refsignals__impl_8h" local="no">refsignals_impl.h</includedby>
+    <incdepgraph>
+      <node id="3">
+        <label>gnuradio/cemmse/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>gnuradio/cemmse/dvb_config.h</label>
+        <link refid="dvb__config_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>gnuradio/cemmse/dvbt_config.h</label>
+        <link refid="dvbt__config_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>refsignals.h</label>
+        <link refid="refsignals_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="2">
+        <label>gnuradio/block.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>refsignals.h</label>
+        <link refid="refsignals_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>demod_refsignals_impl.h</label>
+        <link refid="demod__refsignals__impl_8h"/>
+      </node>
+      <node id="2">
+        <label>refsignals_impl.h</label>
+        <link refid="refsignals__impl_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1cemmse_1_1refsignals" prot="public">gr::cemmse::refsignals</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1cemmse">gr::cemmse</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/include/gnuradio/cemmse/refsignals.h"/>
+  </compounddef>
+</doxygen>

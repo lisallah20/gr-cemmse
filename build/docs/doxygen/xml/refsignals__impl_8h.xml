@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="refsignals__impl_8h" kind="file" language="C++">
+    <compoundname>refsignals_impl.h</compoundname>
+    <includes refid="refsignals_8h" local="no">gnuradio/cemmse/refsignals.h</includes>
+    <includes refid="dvbt__configure_8h" local="no">gnuradio/cemmse/dvbt_configure.h</includes>
+    <includes local="no">gnuradio/fft/fft.h</includes>
+    <includes local="no">deque</includes>
+    <includes local="no">vector</includes>
+    <includedby refid="demod__refsignals__impl_8h" local="yes">demod_refsignals_impl.h</includedby>
+    <incdepgraph>
+      <node id="4">
+        <label>gnuradio/cemmse/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>gnuradio/cemmse/dvb_config.h</label>
+        <link refid="dvb__config_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>gnuradio/cemmse/dvbt_config.h</label>
+        <link refid="dvbt__config_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>gnuradio/cemmse/dvbt_configure.h</label>
+        <link refid="dvbt__configure_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gnuradio/cemmse/refsignals.h</label>
+        <link refid="refsignals_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>refsignals_impl.h</label>
+        <link refid="refsignals__impl_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>deque</label>
+      </node>
+      <node id="5">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="3">
+        <label>gnuradio/block.h</label>
+      </node>
+      <node id="9">
+        <label>gnuradio/fft/fft.h</label>
+      </node>
+      <node id="11">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>demod_refsignals_impl.h</label>
+        <link refid="demod__refsignals__impl_8h"/>
+      </node>
+      <node id="1">
+        <label>refsignals_impl.h</label>
+        <link refid="refsignals__impl_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1cemmse_1_1dvbt__pilot__gen" prot="public">gr::cemmse::dvbt_pilot_gen</innerclass>
+    <innerclass refid="classgr_1_1cemmse_1_1refsignals__impl" prot="public">gr::cemmse::refsignals_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1cemmse">gr::cemmse</innernamespace>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="refsignals__impl_8h_1ab899f5f8e58cde9ade00434d777290e1" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int SYMBOLS_PER_FRAME</definition>
+        <argsstring></argsstring>
+        <name>SYMBOLS_PER_FRAME</name>
+        <initializer>= 68</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="18" column="15" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="refsignals__impl_8h_1a01bba9d58a548d8fc72ca55a3c933662" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int FRAMES_PER_SUPERFRAME</definition>
+        <argsstring></argsstring>
+        <name>FRAMES_PER_SUPERFRAME</name>
+        <initializer>= 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="19" column="15" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="refsignals__impl_8h_1aca38446c8138e754c6e2d785ae7c2399" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int SCATTERED_PILOT_SIZE_2k</definition>
+        <argsstring></argsstring>
+        <name>SCATTERED_PILOT_SIZE_2k</name>
+        <initializer>= 142</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="21" column="15" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="refsignals__impl_8h_1a53c769ee44c2b60f693340f55ebe1e19" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int CONTINUAL_PILOT_SIZE_2k</definition>
+        <argsstring></argsstring>
+        <name>CONTINUAL_PILOT_SIZE_2k</name>
+        <initializer>= 45</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="22" column="15" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="refsignals__impl_8h_1ab08c2de20699eb72fea839cde70e644e" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int TPS_PILOT_SIZE_2k</definition>
+        <argsstring></argsstring>
+        <name>TPS_PILOT_SIZE_2k</name>
+        <initializer>= 17</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="23" column="15" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="refsignals__impl_8h_1a36fb598a5a87af0ad7e487427b19bb62" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int SCATTERED_PILOT_SIZE_8k</definition>
+        <argsstring></argsstring>
+        <name>SCATTERED_PILOT_SIZE_8k</name>
+        <initializer>= 568</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="25" column="15" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="refsignals__impl_8h_1ae395d2e45e5be61c0852381a193b0eb3" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int CONTINUAL_PILOT_SIZE_8k</definition>
+        <argsstring></argsstring>
+        <name>CONTINUAL_PILOT_SIZE_8k</name>
+        <initializer>= 177</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="26" column="15" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="refsignals__impl_8h_1a6c46df425da6fff8bd4ff0e7bc9f7003" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr int</type>
+        <definition>constexpr int TPS_PILOT_SIZE_8k</definition>
+        <argsstring></argsstring>
+        <name>TPS_PILOT_SIZE_8k</name>
+        <initializer>= 68</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" line="27" column="15" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.h"/>
+  </compounddef>
+</doxygen>

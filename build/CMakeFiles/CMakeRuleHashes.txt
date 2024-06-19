@@ -1,0 +1,6 @@
+# Hashes of file build rules.
+180bb243c48b066cd2b930a8d3fc912c docs/doxygen/xml
+c62a0e9c31d5cc37e18c95e9b2d98259 python/cemmse/__init__.pyc
+c81a80247c22190fb947e0b7fd70af0e python/cemmse/__init__.pyo
+d195af830fae004ca1c6d997ab9d501a python/cemmse/bindings/docstring_status
+f6333c18e222a532f57667bcbe26b2ac python/cemmse/bindings/extracted_docstrings.json

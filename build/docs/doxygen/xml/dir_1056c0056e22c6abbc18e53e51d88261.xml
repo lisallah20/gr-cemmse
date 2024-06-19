@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_1056c0056e22c6abbc18e53e51d88261" kind="dir">
+    <compoundname>cemmse</compoundname>
+    <innerdir refid="dir_2c05e3faccb2089c9429742ccff415b8">bindings</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/python/cemmse/"/>
+  </compounddef>
+</doxygen>

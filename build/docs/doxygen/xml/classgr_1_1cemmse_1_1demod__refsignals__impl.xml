@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1cemmse_1_1demod__refsignals__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::cemmse::demod_refsignals_impl</compoundname>
+    <basecompoundref refid="classgr_1_1cemmse_1_1demod__refsignals" prot="public" virt="non-virtual">gr::cemmse::demod_refsignals</basecompoundref>
+    <includes refid="demod__refsignals__impl_8h" local="no">demod_refsignals_impl.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1demod__refsignals__impl_1a2c035175bc16d992d4359861c9d200b1" prot="private" static="no" mutable="no">
+        <type>const dvbt_configure</type>
+        <definition>const dvbt_configure gr::cemmse::demod_refsignals_impl::config</definition>
+        <argsstring></argsstring>
+        <name>config</name>
+        <qualifiedname>gr::cemmse::demod_refsignals_impl::config</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/demod_refsignals_impl.h" line="20" column="22" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/demod_refsignals_impl.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1demod__refsignals__impl_1aaa37cea03386470222d559d48707670c" prot="private" static="no" mutable="no">
+        <type><ref refid="classgr_1_1cemmse_1_1dvbt__pilot__gen" kindref="compound">dvbt_pilot_gen</ref></type>
+        <definition>dvbt_pilot_gen gr::cemmse::demod_refsignals_impl::d_pg</definition>
+        <argsstring></argsstring>
+        <name>d_pg</name>
+        <qualifiedname>gr::cemmse::demod_refsignals_impl::d_pg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/demod_refsignals_impl.h" line="23" column="20" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/demod_refsignals_impl.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1demod__refsignals__impl_1ac6468ae01117406a3d17635a8abf80af" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::cemmse::demod_refsignals_impl::d_ninput</definition>
+        <argsstring></argsstring>
+        <name>d_ninput</name>
+        <qualifiedname>gr::cemmse::demod_refsignals_impl::d_ninput</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/demod_refsignals_impl.h" line="26" column="9" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/demod_refsignals_impl.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1demod__refsignals__impl_1a4b17cbe21c155d5262c30c821944aa50" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::cemmse::demod_refsignals_impl::d_noutput</definition>
+        <argsstring></argsstring>
+        <name>d_noutput</name>
+        <qualifiedname>gr::cemmse::demod_refsignals_impl::d_noutput</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/demod_refsignals_impl.h" line="27" column="9" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/demod_refsignals_impl.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1demod__refsignals__impl_1a590120a69a6d11a23db3574b02abbdc1" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::cemmse::demod_refsignals_impl::d_init</definition>
+        <argsstring></argsstring>
+        <name>d_init</name>
+        <qualifiedname>gr::cemmse::demod_refsignals_impl::d_init</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/demod_refsignals_impl.h" line="29" column="9" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/demod_refsignals_impl.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cemmse_1_1demod__refsignals__impl_1a8c398153604e3704eed982082ae89c01" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::cemmse::demod_refsignals_impl::d_fi_start</definition>
+        <argsstring></argsstring>
+        <name>d_fi_start</name>
+        <qualifiedname>gr::cemmse::demod_refsignals_impl::d_fi_start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/demod_refsignals_impl.h" line="30" column="9" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/demod_refsignals_impl.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1demod__refsignals__impl_1aed9c514d5a9ba0b729a7f474c2373c98" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::cemmse::demod_refsignals_impl::is_sync_start</definition>
+        <argsstring>(int nitems)</argsstring>
+        <name>is_sync_start</name>
+        <qualifiedname>gr::cemmse::demod_refsignals_impl::is_sync_start</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>nitems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/demod_refsignals_impl.h" line="32" column="9"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1demod__refsignals__impl_1a1f626b6722d6253ecf4b756199a7378e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::cemmse::demod_refsignals_impl::demod_refsignals_impl</definition>
+        <argsstring>(int itemsize, int ninput, int noutput, dvb_constellation_t constellation, dvbt_hierarchy_t hierarchy, dvb_code_rate_t code_rate_HP, dvb_code_rate_t code_rate_LP, dvb_guardinterval_t guard_interval, dvbt_transmission_mode_t transmission_mode=gr::cemmse::T2k, int include_cell_id=0, int cell_id=0)</argsstring>
+        <name>demod_refsignals_impl</name>
+        <qualifiedname>gr::cemmse::demod_refsignals_impl::demod_refsignals_impl</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>itemsize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ninput</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>noutput</declname>
+        </param>
+        <param>
+          <type><ref refid="dvb__config_8h_1a9382430d7defb7f03e4bebabbc9ae77d" kindref="member">dvb_constellation_t</ref></type>
+          <declname>constellation</declname>
+        </param>
+        <param>
+          <type><ref refid="dvbt__config_8h_1a7b51902feebb001d1bd3eebe97dfeb4c" kindref="member">dvbt_hierarchy_t</ref></type>
+          <declname>hierarchy</declname>
+        </param>
+        <param>
+          <type><ref refid="dvb__config_8h_1a9adfcb86e75d334e3240318ee69078a1" kindref="member">dvb_code_rate_t</ref></type>
+          <declname>code_rate_HP</declname>
+        </param>
+        <param>
+          <type><ref refid="dvb__config_8h_1a9adfcb86e75d334e3240318ee69078a1" kindref="member">dvb_code_rate_t</ref></type>
+          <declname>code_rate_LP</declname>
+        </param>
+        <param>
+          <type><ref refid="dvb__config_8h_1a258da4572fe82df8f143c1dfcc169b9e" kindref="member">dvb_guardinterval_t</ref></type>
+          <declname>guard_interval</declname>
+        </param>
+        <param>
+          <type><ref refid="dvbt__config_8h_1a1164215ababe632659b10b178ec35670" kindref="member">dvbt_transmission_mode_t</ref></type>
+          <declname>transmission_mode</declname>
+          <defval>gr::cemmse::T2k</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>include_cell_id</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cell_id</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/demod_refsignals_impl.h" line="35" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1demod__refsignals__impl_1ab09bb7d5f1dcff53a2c169d15896e6d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::cemmse::demod_refsignals_impl::~demod_refsignals_impl</definition>
+        <argsstring>() override</argsstring>
+        <name>~demod_refsignals_impl</name>
+        <qualifiedname>gr::cemmse::demod_refsignals_impl::~demod_refsignals_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/demod_refsignals_impl.h" line="47" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1demod__refsignals__impl_1a2e8023cf73c21a3bda83db73784ba33d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::cemmse::demod_refsignals_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required) override</argsstring>
+        <name>forecast</name>
+        <qualifiedname>gr::cemmse::demod_refsignals_impl::forecast</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/demod_refsignals_impl.h" line="50" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cemmse_1_1demod__refsignals__impl_1a5b2c60f7823ff40cde4cdec6a0d69829" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::cemmse::demod_refsignals_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items) override</argsstring>
+        <name>general_work</name>
+        <qualifiedname>gr::cemmse::demod_refsignals_impl::general_work</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/demod_refsignals_impl.h" line="52" column="9"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+      <node id="2">
+        <label>gr::cemmse::demod_refsignals</label>
+        <link refid="classgr_1_1cemmse_1_1demod__refsignals"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::cemmse::demod_refsignals_impl</label>
+        <link refid="classgr_1_1cemmse_1_1demod__refsignals__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+      <node id="2">
+        <label>gr::cemmse::demod_refsignals</label>
+        <link refid="classgr_1_1cemmse_1_1demod__refsignals"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::cemmse::demod_refsignals_impl</label>
+        <link refid="classgr_1_1cemmse_1_1demod__refsignals__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/demod_refsignals_impl.h" line="17" column="1" bodyfile="/home/iostreamco/grc/tryOOT/gr-cemmse/lib/demod_refsignals_impl.h" bodystart="18" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classgr_1_1cemmse_1_1demod__refsignals__impl_1a2c035175bc16d992d4359861c9d200b1" prot="private" virt="non-virtual"><scope>gr::cemmse::demod_refsignals_impl</scope><name>config</name></member>
+      <member refid="classgr_1_1cemmse_1_1demod__refsignals__impl_1a8c398153604e3704eed982082ae89c01" prot="private" virt="non-virtual"><scope>gr::cemmse::demod_refsignals_impl</scope><name>d_fi_start</name></member>
+      <member refid="classgr_1_1cemmse_1_1demod__refsignals__impl_1a590120a69a6d11a23db3574b02abbdc1" prot="private" virt="non-virtual"><scope>gr::cemmse::demod_refsignals_impl</scope><name>d_init</name></member>
+      <member refid="classgr_1_1cemmse_1_1demod__refsignals__impl_1ac6468ae01117406a3d17635a8abf80af" prot="private" virt="non-virtual"><scope>gr::cemmse::demod_refsignals_impl</scope><name>d_ninput</name></member>
+      <member refid="classgr_1_1cemmse_1_1demod__refsignals__impl_1a4b17cbe21c155d5262c30c821944aa50" prot="private" virt="non-virtual"><scope>gr::cemmse::demod_refsignals_impl</scope><name>d_noutput</name></member>
+      <member refid="classgr_1_1cemmse_1_1demod__refsignals__impl_1aaa37cea03386470222d559d48707670c" prot="private" virt="non-virtual"><scope>gr::cemmse::demod_refsignals_impl</scope><name>d_pg</name></member>
+      <member refid="classgr_1_1cemmse_1_1demod__refsignals__impl_1a1f626b6722d6253ecf4b756199a7378e" prot="public" virt="non-virtual"><scope>gr::cemmse::demod_refsignals_impl</scope><name>demod_refsignals_impl</name></member>
+      <member refid="classgr_1_1cemmse_1_1demod__refsignals__impl_1a2e8023cf73c21a3bda83db73784ba33d" prot="public" virt="non-virtual"><scope>gr::cemmse::demod_refsignals_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1cemmse_1_1demod__refsignals__impl_1a5b2c60f7823ff40cde4cdec6a0d69829" prot="public" virt="non-virtual"><scope>gr::cemmse::demod_refsignals_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1cemmse_1_1demod__refsignals__impl_1aed9c514d5a9ba0b729a7f474c2373c98" prot="private" virt="non-virtual"><scope>gr::cemmse::demod_refsignals_impl</scope><name>is_sync_start</name></member>
+      <member refid="classgr_1_1cemmse_1_1demod__refsignals_1ac65b1d5513608e26a0b869038f66a4c0" prot="public" virt="non-virtual"><scope>gr::cemmse::demod_refsignals_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1cemmse_1_1demod__refsignals_1a7024f222022f7eb4c43b337fee9cc008" prot="public" virt="non-virtual"><scope>gr::cemmse::demod_refsignals_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1cemmse_1_1demod__refsignals__impl_1ab09bb7d5f1dcff53a2c169d15896e6d2" prot="public" virt="non-virtual"><scope>gr::cemmse::demod_refsignals_impl</scope><name>~demod_refsignals_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

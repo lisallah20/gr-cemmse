@@ -1,0 +1,68 @@
+[
+{
+  "directory": "/home/iostreamco/grc/tryOOT/gr-cemmse/build",
+  "command": "/usr/bin/g++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DFMT_SHARED -DGR_CTRLPORT -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dgnuradio_cemmse_EXPORTS -I/home/iostreamco/grc/tryOOT/gr-cemmse/lib/../include  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -g -O2 -std=c++17 -fPIC -o lib/CMakeFiles/gnuradio-cemmse.dir/dvb_config.cc.o -c /home/iostreamco/grc/tryOOT/gr-cemmse/lib/dvb_config.cc",
+  "file": "/home/iostreamco/grc/tryOOT/gr-cemmse/lib/dvb_config.cc",
+  "output": "lib/CMakeFiles/gnuradio-cemmse.dir/dvb_config.cc.o"
+},
+{
+  "directory": "/home/iostreamco/grc/tryOOT/gr-cemmse/build",
+  "command": "/usr/bin/g++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DFMT_SHARED -DGR_CTRLPORT -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dgnuradio_cemmse_EXPORTS -I/home/iostreamco/grc/tryOOT/gr-cemmse/lib/../include  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -g -O2 -std=c++17 -fPIC -o lib/CMakeFiles/gnuradio-cemmse.dir/dvbt_config.cc.o -c /home/iostreamco/grc/tryOOT/gr-cemmse/lib/dvbt_config.cc",
+  "file": "/home/iostreamco/grc/tryOOT/gr-cemmse/lib/dvbt_config.cc",
+  "output": "lib/CMakeFiles/gnuradio-cemmse.dir/dvbt_config.cc.o"
+},
+{
+  "directory": "/home/iostreamco/grc/tryOOT/gr-cemmse/build",
+  "command": "/usr/bin/g++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DFMT_SHARED -DGR_CTRLPORT -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dgnuradio_cemmse_EXPORTS -I/home/iostreamco/grc/tryOOT/gr-cemmse/lib/../include  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -g -O2 -std=c++17 -fPIC -o lib/CMakeFiles/gnuradio-cemmse.dir/dvbt_configure.cc.o -c /home/iostreamco/grc/tryOOT/gr-cemmse/lib/dvbt_configure.cc",
+  "file": "/home/iostreamco/grc/tryOOT/gr-cemmse/lib/dvbt_configure.cc",
+  "output": "lib/CMakeFiles/gnuradio-cemmse.dir/dvbt_configure.cc.o"
+},
+{
+  "directory": "/home/iostreamco/grc/tryOOT/gr-cemmse/build",
+  "command": "/usr/bin/g++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DFMT_SHARED -DGR_CTRLPORT -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dgnuradio_cemmse_EXPORTS -I/home/iostreamco/grc/tryOOT/gr-cemmse/lib/../include  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -g -O2 -std=c++17 -fPIC -o lib/CMakeFiles/gnuradio-cemmse.dir/refsignals_impl.cc.o -c /home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.cc",
+  "file": "/home/iostreamco/grc/tryOOT/gr-cemmse/lib/refsignals_impl.cc",
+  "output": "lib/CMakeFiles/gnuradio-cemmse.dir/refsignals_impl.cc.o"
+},
+{
+  "directory": "/home/iostreamco/grc/tryOOT/gr-cemmse/build",
+  "command": "/usr/bin/g++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DFMT_SHARED -DGR_CTRLPORT -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dgnuradio_cemmse_EXPORTS -I/home/iostreamco/grc/tryOOT/gr-cemmse/lib/../include  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -g -O2 -std=c++17 -fPIC -o lib/CMakeFiles/gnuradio-cemmse.dir/demod_refsignals_impl.cc.o -c /home/iostreamco/grc/tryOOT/gr-cemmse/lib/demod_refsignals_impl.cc",
+  "file": "/home/iostreamco/grc/tryOOT/gr-cemmse/lib/demod_refsignals_impl.cc",
+  "output": "lib/CMakeFiles/gnuradio-cemmse.dir/demod_refsignals_impl.cc.o"
+},
+{
+  "directory": "/home/iostreamco/grc/tryOOT/gr-cemmse/build",
+  "command": "/usr/bin/g++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_REGEX_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_NO_LIB -DFMT_SHARED -DGR_CTRLPORT -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dcemmse_python_EXPORTS -I/home/iostreamco/grc/tryOOT/gr-cemmse/build/python/cemmse/bindings -I/home/iostreamco/grc/tryOOT/gr-cemmse/python/cemmse/bindings/../../../lib -I/home/iostreamco/grc/tryOOT/gr-cemmse/python/cemmse/bindings/../../../include -I/home/iostreamco/grc/tryOOT/gr-cemmse/lib/../include -isystem /usr/include/python3.12 -isystem /usr/lib/python3/dist-packages/numpy/core/include  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -g -O2 -std=c++17 -fPIC -fvisibility=hidden -Wno-unused-variable -o python/cemmse/bindings/CMakeFiles/cemmse_python.dir/dvb_config_python.cc.o -c /home/iostreamco/grc/tryOOT/gr-cemmse/python/cemmse/bindings/dvb_config_python.cc",
+  "file": "/home/iostreamco/grc/tryOOT/gr-cemmse/python/cemmse/bindings/dvb_config_python.cc",
+  "output": "python/cemmse/bindings/CMakeFiles/cemmse_python.dir/dvb_config_python.cc.o"
+},
+{
+  "directory": "/home/iostreamco/grc/tryOOT/gr-cemmse/build",
+  "command": "/usr/bin/g++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_REGEX_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_NO_LIB -DFMT_SHARED -DGR_CTRLPORT -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dcemmse_python_EXPORTS -I/home/iostreamco/grc/tryOOT/gr-cemmse/build/python/cemmse/bindings -I/home/iostreamco/grc/tryOOT/gr-cemmse/python/cemmse/bindings/../../../lib -I/home/iostreamco/grc/tryOOT/gr-cemmse/python/cemmse/bindings/../../../include -I/home/iostreamco/grc/tryOOT/gr-cemmse/lib/../include -isystem /usr/include/python3.12 -isystem /usr/lib/python3/dist-packages/numpy/core/include  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -g -O2 -std=c++17 -fPIC -fvisibility=hidden -Wno-unused-variable -o python/cemmse/bindings/CMakeFiles/cemmse_python.dir/dvbt_config_python.cc.o -c /home/iostreamco/grc/tryOOT/gr-cemmse/python/cemmse/bindings/dvbt_config_python.cc",
+  "file": "/home/iostreamco/grc/tryOOT/gr-cemmse/python/cemmse/bindings/dvbt_config_python.cc",
+  "output": "python/cemmse/bindings/CMakeFiles/cemmse_python.dir/dvbt_config_python.cc.o"
+},
+{
+  "directory": "/home/iostreamco/grc/tryOOT/gr-cemmse/build",
+  "command": "/usr/bin/g++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_REGEX_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_NO_LIB -DFMT_SHARED -DGR_CTRLPORT -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dcemmse_python_EXPORTS -I/home/iostreamco/grc/tryOOT/gr-cemmse/build/python/cemmse/bindings -I/home/iostreamco/grc/tryOOT/gr-cemmse/python/cemmse/bindings/../../../lib -I/home/iostreamco/grc/tryOOT/gr-cemmse/python/cemmse/bindings/../../../include -I/home/iostreamco/grc/tryOOT/gr-cemmse/lib/../include -isystem /usr/include/python3.12 -isystem /usr/lib/python3/dist-packages/numpy/core/include  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -g -O2 -std=c++17 -fPIC -fvisibility=hidden -Wno-unused-variable -o python/cemmse/bindings/CMakeFiles/cemmse_python.dir/dvbt_configure_python.cc.o -c /home/iostreamco/grc/tryOOT/gr-cemmse/python/cemmse/bindings/dvbt_configure_python.cc",
+  "file": "/home/iostreamco/grc/tryOOT/gr-cemmse/python/cemmse/bindings/dvbt_configure_python.cc",
+  "output": "python/cemmse/bindings/CMakeFiles/cemmse_python.dir/dvbt_configure_python.cc.o"
+},
+{
+  "directory": "/home/iostreamco/grc/tryOOT/gr-cemmse/build",
+  "command": "/usr/bin/g++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_REGEX_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_NO_LIB -DFMT_SHARED -DGR_CTRLPORT -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dcemmse_python_EXPORTS -I/home/iostreamco/grc/tryOOT/gr-cemmse/build/python/cemmse/bindings -I/home/iostreamco/grc/tryOOT/gr-cemmse/python/cemmse/bindings/../../../lib -I/home/iostreamco/grc/tryOOT/gr-cemmse/python/cemmse/bindings/../../../include -I/home/iostreamco/grc/tryOOT/gr-cemmse/lib/../include -isystem /usr/include/python3.12 -isystem /usr/lib/python3/dist-packages/numpy/core/include  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -g -O2 -std=c++17 -fPIC -fvisibility=hidden -Wno-unused-variable -o python/cemmse/bindings/CMakeFiles/cemmse_python.dir/refsignals_python.cc.o -c /home/iostreamco/grc/tryOOT/gr-cemmse/python/cemmse/bindings/refsignals_python.cc",
+  "file": "/home/iostreamco/grc/tryOOT/gr-cemmse/python/cemmse/bindings/refsignals_python.cc",
+  "output": "python/cemmse/bindings/CMakeFiles/cemmse_python.dir/refsignals_python.cc.o"
+},
+{
+  "directory": "/home/iostreamco/grc/tryOOT/gr-cemmse/build",
+  "command": "/usr/bin/g++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_REGEX_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_NO_LIB -DFMT_SHARED -DGR_CTRLPORT -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dcemmse_python_EXPORTS -I/home/iostreamco/grc/tryOOT/gr-cemmse/build/python/cemmse/bindings -I/home/iostreamco/grc/tryOOT/gr-cemmse/python/cemmse/bindings/../../../lib -I/home/iostreamco/grc/tryOOT/gr-cemmse/python/cemmse/bindings/../../../include -I/home/iostreamco/grc/tryOOT/gr-cemmse/lib/../include -isystem /usr/include/python3.12 -isystem /usr/lib/python3/dist-packages/numpy/core/include  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -g -O2 -std=c++17 -fPIC -fvisibility=hidden -Wno-unused-variable -o python/cemmse/bindings/CMakeFiles/cemmse_python.dir/demod_refsignals_python.cc.o -c /home/iostreamco/grc/tryOOT/gr-cemmse/python/cemmse/bindings/demod_refsignals_python.cc",
+  "file": "/home/iostreamco/grc/tryOOT/gr-cemmse/python/cemmse/bindings/demod_refsignals_python.cc",
+  "output": "python/cemmse/bindings/CMakeFiles/cemmse_python.dir/demod_refsignals_python.cc.o"
+},
+{
+  "directory": "/home/iostreamco/grc/tryOOT/gr-cemmse/build",
+  "command": "/usr/bin/g++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_REGEX_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_NO_LIB -DFMT_SHARED -DGR_CTRLPORT -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dcemmse_python_EXPORTS -I/home/iostreamco/grc/tryOOT/gr-cemmse/build/python/cemmse/bindings -I/home/iostreamco/grc/tryOOT/gr-cemmse/python/cemmse/bindings/../../../lib -I/home/iostreamco/grc/tryOOT/gr-cemmse/python/cemmse/bindings/../../../include -I/home/iostreamco/grc/tryOOT/gr-cemmse/lib/../include -isystem /usr/include/python3.12 -isystem /usr/lib/python3/dist-packages/numpy/core/include  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -g -O2 -std=c++17 -fPIC -fvisibility=hidden -Wno-unused-variable -o python/cemmse/bindings/CMakeFiles/cemmse_python.dir/python_bindings.cc.o -c /home/iostreamco/grc/tryOOT/gr-cemmse/python/cemmse/bindings/python_bindings.cc",
+  "file": "/home/iostreamco/grc/tryOOT/gr-cemmse/python/cemmse/bindings/python_bindings.cc",
+  "output": "python/cemmse/bindings/CMakeFiles/cemmse_python.dir/python_bindings.cc.o"
+}
+]
